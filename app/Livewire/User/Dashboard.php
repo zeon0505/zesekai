@@ -5,7 +5,7 @@ namespace App\Livewire\User;
 use Livewire\Attributes\Layout;
 use Livewire\Component;
 
-#[Layout('layouts.app')]
+#[Layout('layouts.user')]
 class Dashboard extends Component
 {
     public function render()
