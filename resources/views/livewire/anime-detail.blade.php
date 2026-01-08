@@ -141,10 +141,13 @@
                         <span>{{ count($anime->episodes) }} EPS</span>
                     </div>
 
-                    <button @click="document.getElementById('ep-list').scrollIntoView({behavior: 'smooth'})" 
-                            class="mb-10 px-10 py-3.5 bg-red-600 hover:bg-red-700 text-white rounded-full font-black text-[11px] uppercase tracking-widest transition shadow-lg shadow-red-900/40">
-                        Watch Now
-                    </button>
+                    <div class="flex flex-wrap gap-4 mb-10">
+                        <button @click="document.getElementById('ep-list').scrollIntoView({behavior: 'smooth'})" 
+                                class="px-10 py-3.5 bg-red-600 hover:bg-red-700 text-white rounded-full font-black text-[11px] uppercase tracking-widest transition shadow-lg shadow-red-900/40">
+                            Watch Now
+                        </button>
+                        <livewire:components.watchlist-button :animeId="$anime->id" />
+                    </div>
 
                     <p class="text-zinc-500 text-sm leading-relaxed max-w-2xl font-medium italic line-clamp-3 mb-10">{{ $anime->synopsis }}</p>
 

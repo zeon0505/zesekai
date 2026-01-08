@@ -123,7 +123,7 @@
                 </div>
                 
                 <h1 class="text-3xl md:text-5xl font-black leading-[1.05] animate-up delay-1 tracking-tighter uppercase">
-                    Jelajahi Dunia <br> <span class="gradient-text italic">Anime Terbaik</span>
+                    Jelajahi Dunia <br> <span class="gradient-text">Anime Terbaik</span>
                 </h1>
                 
                 <p class="text-base text-gray-500 max-w-sm leading-relaxed animate-up delay-2 font-medium">
@@ -134,9 +134,9 @@
                     <a href="#featured" class="btn-gradient px-10 py-4 rounded-2xl font-black text-[11px] tracking-[0.2em] flex items-center gap-3 uppercase">
                         <span>▶ Mulai Menonton</span>
                     </a>
-                    <button class="glass px-10 py-4 border-white/[0.03] hover:bg-white/[0.05] transition-all duration-300 font-bold text-[11px] tracking-[0.2em] uppercase">
+                    <a href="{{ route('watchlist') }}" class="glass px-10 py-4 border-white/[0.03] hover:bg-white/[0.05] transition-all duration-300 font-bold text-[11px] tracking-[0.2em] uppercase flex items-center justify-center">
                         Watchlist
-                    </button>
+                    </a>
                 </div>
             </div>
 
@@ -181,7 +181,7 @@
             <div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 mb-12">
                 <div>
                     <div class="line-accent"></div>
-                    <h2 class="text-2xl md:text-3xl font-black tracking-tighter uppercase italic">TOP <span class="text-red-600">TRENDING</span></h2>
+                    <h2 class="text-2xl md:text-3xl font-black tracking-tighter uppercase">TOP <span class="text-red-600">TRENDING</span></h2>
                     <p class="text-gray-500 mt-2 font-bold text-[10px] uppercase tracking-widest">Anime yang mendominasi minggu ini</p>
                 </div>
                 <div class="flex gap-4">
@@ -220,7 +220,7 @@
         <div class="max-w-7xl mx-auto px-6">
              <div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 mb-12">
                 <div>
-                    <h2 class="text-2xl md:text-3xl font-black tracking-tighter uppercase italic">Katalog <span class="text-red-600">Terbaru</span></h2>
+                    <h2 class="text-2xl md:text-3xl font-black tracking-tighter uppercase">Katalog <span class="text-red-600">Terbaru</span></h2>
                     <p class="text-gray-500 mt-2 font-bold text-[10px] uppercase tracking-widest">Temukan favorit barumu</p>
                 </div>
                 <a href="{{ route('catalog') }}" class="glass px-6 py-2 text-[10px] font-black uppercase tracking-widest hover:bg-white/5 transition">Lihat Katalog Lengkap</a>

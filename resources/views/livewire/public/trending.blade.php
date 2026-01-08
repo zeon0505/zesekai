@@ -5,7 +5,7 @@
             <div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 mb-16">
                 <div>
                     <div class="line-accent"></div>
-                    <h2 class="text-2xl md:text-4xl font-black tracking-tighter uppercase italic">TOP <span class="text-red-600">TRENDING</span></h2>
+                    <h2 class="text-2xl md:text-4xl font-black tracking-tighter uppercase">TOP <span class="text-red-600">TRENDING</span></h2>
                     <p class="text-gray-500 mt-2 font-bold text-[10px] uppercase tracking-widest">Anime yang mendominasi minggu ini</p>
                 </div>
             </div>

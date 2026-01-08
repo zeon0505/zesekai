@@ -37,6 +37,7 @@ Route::post('/logout', function () {
 Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/dashboard', UserDashboard::class)->name('dashboard');
     Route::get('/profile', UserProfile::class)->name('profile');
+    Route::get('/watchlist', \App\Livewire\User\Watchlist::class)->name('watchlist');
 });
 
 // ADMIN ROUTES
