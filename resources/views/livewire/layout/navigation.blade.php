@@ -15,6 +15,9 @@
             <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'text-white' : '' }} hover:text-white transition-colors">Home</a>
             @auth
                 <a href="{{ route('dashboard') }}" class="{{ request()->routeIs('dashboard') ? 'text-white' : '' }} hover:text-white transition-colors text-red-500">Dashboard</a>
+                @if(!auth()->user()->is_premium)
+                    <a href="{{ route('subscription') }}" class="{{ request()->routeIs('subscription') ? 'text-white' : '' }} hover:text-white transition-colors">Premium</a>
+                @endif
             @endauth
             <a href="{{ route('trending') }}" class="{{ request()->routeIs('trending') ? 'text-white' : '' }} hover:text-white transition-colors">Trending</a>
             <a href="{{ route('catalog') }}" class="{{ request()->routeIs('catalog') ? 'text-white' : '' }} hover:text-white transition-colors">Catalog</a>
@@ -25,7 +28,10 @@
             @auth
                 <div class="relative" x-data="{ userOpen: false }">
                     <button @click="userOpen = !userOpen" class="flex items-center gap-3 text-[10px] font-black text-gray-300 uppercase tracking-widest hover:text-white transition">
-                        {{ auth()->user()->name }}
+                        <span>{{ auth()->user()->name }}</span>
+                        @if(auth()->user()->is_premium)
+                            <span class="bg-red-600 text-[8px] px-1.5 py-0.5 rounded italic text-white">PREMIUM</span>
+                        @endif
                         <svg class="w-2.5 h-2.5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7"></path></svg>
                     </button>
                     
@@ -73,6 +79,9 @@
         
         @auth
             <a href="{{ route('dashboard') }}" class="block text-[10px] font-black text-red-600 uppercase tracking-widest">Dashboard</a>
+            @if(!auth()->user()->is_premium)
+                <a href="{{ route('subscription') }}" class="block text-[10px] font-black text-gray-400 uppercase tracking-widest">Premium</a>
+            @endif
             <a href="{{ route('profile') }}" class="block text-[10px] font-black text-gray-400 uppercase tracking-widest">Profile</a>
             <button x-on:click.prevent="$dispatch('open-modal', 'confirm-logout')" class="block w-full text-left text-[10px] font-black text-red-600 uppercase tracking-widest">Logout</button>
         @else

@@ -178,6 +178,13 @@
                         </a>
                     </li>
 
+                    <li class="sidebar-item {{ request()->routeIs('admin.settings.ads') ? 'active' : '' }}">
+                        <a href="{{ route('admin.settings.ads') }}" class='sidebar-link'>
+                            <i class="bi bi-megaphone-fill"></i>
+                            <span>Ads & Monetization</span>
+                        </a>
+                    </li>
+
                     <li class="sidebar-item {{ request()->routeIs('admin.users.*') ? 'active' : '' }}">
                         <a href="{{ route('admin.users.index') }}" class='sidebar-link'>
                             <i class="bi bi-people-fill"></i>

@@ -26,6 +26,7 @@ Route::view('/', 'welcome')->name('home'); // KEMBALI KE WELCOME.BLADE.PHP
 Route::get('/trending', Trending::class)->name('trending');
 Route::get('/catalog', Catalog::class)->name('catalog');
 Route::get('/anime/{slug}', AnimeDetail::class)->name('anime.detail');
+Route::post('/payment/notification', [App\Http\Controllers\PaymentController::class, 'notification'])->name('payment.notification');
 Route::post('/logout', function () {
     Illuminate\Support\Facades\Auth::logout();
     session()->invalidate();
@@ -38,6 +39,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/dashboard', UserDashboard::class)->name('dashboard');
     Route::get('/profile', UserProfile::class)->name('profile');
     Route::get('/watchlist', \App\Livewire\User\Watchlist::class)->name('watchlist');
+    Route::get('/subscription', \App\Livewire\User\Subscription::class)->name('subscription');
 });
 
 // ADMIN ROUTES
@@ -80,6 +82,7 @@ Route::middleware(['auth'])->prefix('admin')->name('admin.')->group(function () 
     // Landing Page Settings
     Route::get('/settings/hero', \App\Livewire\Admin\Settings\HeroSettings::class)->name('settings.hero');
     Route::get('/settings/general', \App\Livewire\Admin\Settings\General::class)->name('settings.general');
+    Route::get('/settings/ads', \App\Livewire\Admin\Settings\Ads::class)->name('settings.ads');
 });
 
 require __DIR__.'/auth.php';

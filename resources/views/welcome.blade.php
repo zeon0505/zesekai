@@ -175,6 +175,58 @@
         </div>
     </section>
 
+    @if(!auth()->user()?->is_premium)
+    <!-- PREMIUM BANNER -->
+    <section class="pb-10 pt-20">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="bg-[#0a0a0a] border border-red-600/20 rounded-[32px] p-8 md:p-16 relative overflow-hidden group shadow-2xl shadow-red-900/5">
+                <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-red-600/5 blur-[120px] rounded-full -z-0 pointer-events-none group-hover:bg-red-600/10 transition-all duration-700"></div>
+                
+                <div class="relative z-10 grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <div class="inline-flex items-center gap-2 px-3 py-1 bg-red-600/10 border border-red-600/20 rounded-full text-[8px] font-black uppercase tracking-[0.3em] text-red-500 mb-6">
+                            Exclusive Offer
+                        </div>
+                        <h2 class="text-3xl md:text-5xl font-black uppercase tracking-tighter text-white mb-6 leading-none">Nikmati <span class="text-red-600">Premium</span> <br> Tanpa Iklan</h2>
+                        <p class="text-gray-500 font-medium text-sm md:text-base mb-10 max-w-md">Tonton anime favoritmu dengan kualitas Full HD 1080p dan akses server prioritas tanpa gangguan iklan sekali saja.</p>
+                        
+                        <div class="flex flex-wrap gap-4">
+                            <a href="{{ route('subscription') }}" class="btn-gradient px-8 py-4 rounded-2xl font-black text-[10px] uppercase tracking-[0.2em] text-white">Berlangganan Sekarang</a>
+                            <div class="flex flex-col justify-center">
+                                <span class="text-white font-black text-lg leading-none">IDR 29K</span>
+                                <span class="text-[8px] text-gray-500 uppercase font-bold tracking-widest mt-1">Hanya per bulan</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="space-y-4">
+                            <div class="bg-white/5 border border-white/5 p-6 rounded-2xl hover:border-red-600/30 transition">
+                                <i class="bi bi-hd-fill text-2xl text-red-600 mb-3 block"></i>
+                                <h4 class="text-[10px] font-black uppercase text-white tracking-widest">Full HD</h4>
+                            </div>
+                            <div class="bg-white/5 border border-white/5 p-6 rounded-2xl hover:border-red-600/30 transition">
+                                <i class="bi bi-lightning-charge-fill text-2xl text-red-600 mb-3 block"></i>
+                                <h4 class="text-[10px] font-black uppercase text-white tracking-widest">Fast Track</h4>
+                            </div>
+                        </div>
+                        <div class="space-y-4 pt-8">
+                            <div class="bg-white/5 border border-white/5 p-6 rounded-2xl hover:border-red-600/30 transition">
+                                <i class="bi bi-shield-lock-fill text-2xl text-red-600 mb-3 block"></i>
+                                <h4 class="text-[10px] font-black uppercase text-white tracking-widest">No Ads</h4>
+                            </div>
+                            <div class="bg-white/5 border border-white/5 p-6 rounded-2xl hover:border-red-600/30 transition">
+                                <i class="bi bi-cloud-arrow-down-fill text-2xl text-red-600 mb-3 block"></i>
+                                <h4 class="text-[10px] font-black uppercase text-white tracking-widest">Offline</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    @endif
+
     <!-- TRENDING PREVIEW SECTION -->
     <section id="featured" class="py-24 bg-black border-y border-white/[0.02]">
         <div class="max-w-7xl mx-auto px-6">

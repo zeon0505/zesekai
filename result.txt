@@ -1,0 +1,15 @@
+Searching for naruto via https://www.sankavollerei.com/anime/search/naruto...
+OK: Yes
+Count: 1
+First Result Title: Boruto: Naruto Next Generations Subtitle Indonesia
+First Result ID: borot-sub-indo
+
+Fetching detail: https://www.sankavollerei.com/anime/anime/borot-sub-indo
+Detail OK: Yes
+Title: Boruto
+
+Fetching episode detail: https://www.sankavollerei.com/anime/episode/btr-nng-episode-293-sub-indo
+Episode OK: Yes
+Fetching Server Detail: https://www.sankavollerei.com/anime/server/68D8BB-5-8B5u
+Server OK: Yes
+Final URL: https://desustream.info/dstream/arcg/?id=Slo4djh2d3NIOWhCTWpacjZBaitxZnBDeWw0Y1ptN1lkRUZhR2o1bms3S0NLZnhOcEQyVlpJUThCbXVlcE51bA==

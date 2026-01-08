@@ -9,6 +9,25 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
     @livewireStyles
+    
+    @php 
+        $adsense_client = \App\Models\Setting::get('adsense_client');
+        $popunder_code = \App\Models\Setting::get('popunder_code');
+        $is_premium = auth()->user()?->is_premium;
+    @endphp
+
+    @if(!$is_premium)
+        @if($adsense_client)
+            <!-- Google AdSense Auto Ads -->
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ $adsense_client }}" crossorigin="anonymous"></script>
+        @endif
+        
+        @if($popunder_code)
+            <!-- Pop-under Ads (Adsterra/Others) -->
+            {!! $popunder_code !!}
+        @endif
+    @endif
+
     <style>
         body { font-family: 'Outfit', sans-serif; background-color: #000; color: #fff; }
         
@@ -143,6 +162,15 @@
                         </a>
                     </li>
 
+                    @if(!auth()->user()->is_premium)
+                    <li class="sidebar-item {{ request()->routeIs('subscription') ? 'active' : '' }}">
+                        <a href="{{ route('subscription') }}" class='sidebar-link'>
+                            <i class="bi bi-star-fill"></i>
+                            <span>Premium</span>
+                        </a>
+                    </li>
+                    @endif
+
                     <li class="menu-title">Browse</li>
 
                     <li class="sidebar-item {{ request()->routeIs('trending') ? 'active' : '' }}">
@@ -229,7 +257,24 @@
     </div>
 
     @livewireScripts
+    @stack('scripts')
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
+        window.addEventListener('swal:alert', event => {
+            const data = event.detail[0] || event.detail;
+            Swal.fire({
+                icon: data.type,
+                title: data.title,
+                text: data.text,
+                background: '#0a0a0a',
+                color: '#fff',
+                confirmButtonColor: '#cc0000',
+                customClass: {
+                    popup: 'border border-white/10 rounded-[32px]',
+                }
+            });
+        });
+
         const burgerBtn = document.getElementById('burger-btn');
         const sidebar = document.getElementById('sidebar');
         const backdrop = document.getElementById('backdrop');

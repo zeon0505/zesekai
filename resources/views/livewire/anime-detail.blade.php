@@ -235,6 +235,84 @@
                 </template>
             </div>
 
+            @if(!auth()->user()?->is_premium)
+                @php
+                    $headerAds = \App\Models\Setting::get('adsense_header_code');
+                    $sidebarAds = \App\Models\Setting::get('adsense_sidebar_code');
+                    $sponsorActive = \App\Models\Setting::get('sponsor_active');
+                    $sponsorImg = \App\Models\Setting::get('sponsor_banner_url');
+                    $sponsorLink = \App\Models\Setting::get('sponsor_link');
+                @endphp
+
+                <!-- ADS SECTION for NON-PREMIUM -->
+                <div class="mb-12 space-y-6">
+                    @if($sponsorActive && $sponsorImg)
+                        <!-- Sponsor Banner -->
+                        <div class="relative group">
+                            <a href="{{ $sponsorLink }}" target="_blank" class="block w-full aspect-[4/1] md:aspect-[8/1] rounded-2xl overflow-hidden border border-white/5 relative">
+                                <img src="{{ $sponsorImg }}" class="w-full h-full object-cover">
+                                <div class="absolute top-2 right-2 px-2 py-0.5 bg-black/50 backdrop-blur-md rounded text-[6px] font-bold text-white uppercase border border-white/10 tracking-widest">Sponsor</div>
+                            </a>
+                        </div>
+                    @endif
+
+                    @if($headerAds)
+                        <div class="bg-zinc-900/10 rounded-xl overflow-hidden flex justify-center py-2 border border-white/5">
+                            {!! $headerAds !!}
+                        </div>
+                    @endif
+
+                    <div class="bg-[#0a0a0a] border border-red-600/20 rounded-2xl p-4 relative overflow-hidden group">
+                        <div class="flex items-center justify-between gap-4">
+                            <div class="flex items-center gap-4">
+                                <div class="w-10 h-10 bg-red-600/10 rounded-xl flex items-center justify-center border border-red-600/20">
+                                    <i class="bi bi-star-fill text-red-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-xs font-black text-white uppercase tracking-tight">Iklan Terdeteksi</h4>
+                                    <p class="text-[8px] text-gray-500 font-bold uppercase tracking-widest mt-0.5">Hapus iklan & tonton 1080p dengan Premium</p>
+                                </div>
+                            </div>
+                            <a href="{{ route('subscription') }}" class="px-4 py-2 bg-red-600 text-white rounded-lg text-[9px] font-black uppercase tracking-widest hover:bg-red-700 transition">Upgrade</a>
+                        </div>
+                    </div>
+
+                    @if($sidebarAds)
+                        <div class="bg-zinc-900/10 rounded-xl overflow-hidden flex justify-center py-2 border border-white/5">
+                            {!! $sidebarAds !!}
+                        </div>
+                    @endif
+                </div>
+            @endif
+
+            @php
+                $donationActive = \App\Models\Setting::get('donation_active');
+                $donationLink = \App\Models\Setting::get('donation_link');
+            @endphp
+
+            @if($donationActive && $donationLink)
+                <!-- DONATION SECTION -->
+                <div class="mb-12">
+                    <div class="bg-zinc-900/20 border border-white/5 rounded-3xl p-6 md:p-10 flex flex-col md:flex-row items-center gap-6 md:gap-10 relative overflow-hidden group shadow-2xl">
+                        <div class="absolute top-0 right-0 w-40 h-40 bg-green-600/5 blur-[50px] pointer-events-none"></div>
+                        <div class="flex-shrink-0 relative">
+                            <div class="w-16 h-16 bg-green-600/10 rounded-2xl flex items-center justify-center border border-green-600/20 shadow-lg">
+                                <i class="bi bi-heart-fill text-green-600 text-2xl animate-pulse"></i>
+                            </div>
+                        </div>
+                        <div class="text-center md:text-left flex-1 relative z-10">
+                            <h3 class="text-lg font-black text-white uppercase tracking-tighter mb-2">Suka dengan ZESEKAI?</h3>
+                            <p class="text-[10px] text-gray-500 font-bold uppercase tracking-widest leading-loose">Dukung kami untuk biaya server agar tetap lancar update setiap hari. Traktir admin kopi atau gorengan!</p>
+                        </div>
+                        <div class="relative z-10 w-full md:w-auto">
+                            <a href="{{ $donationLink }}" target="_blank" class="block w-full text-center px-8 py-4 bg-green-600 hover:bg-green-700 text-white text-[10px] font-black uppercase tracking-[0.2em] rounded-2xl transition shadow-xl shadow-green-900/40">
+                                Support via Trakteer / Saweria
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            @endif
+
             <!-- Troubleshoot & Episodes Below -->
             <div class="flex flex-col items-center gap-10">
                 <a :href="currentUrl" target="_blank" class="px-6 py-2 bg-zinc-900/50 border border-white/5 rounded-full text-[8px] font-black uppercase text-zinc-500 hover:text-red-500 hover:border-red-600/30 transition flex items-center gap-2 group">

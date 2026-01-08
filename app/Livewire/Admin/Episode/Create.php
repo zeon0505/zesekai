@@ -415,6 +415,11 @@ class Create extends Component
              return false;
         }
 
+        // Allow Otakudesu known stream tags/links
+        if (str_contains($url, 'desustream.info')) {
+            return true;
+        }
+
         foreach($blacklisted as $b) {
             if(str_contains($url, $b)) return false;
         }
