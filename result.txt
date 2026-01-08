@@ -1,15 +1,18 @@
-Searching for naruto via https://www.sankavollerei.com/anime/search/naruto...
-OK: Yes
-Count: 1
-First Result Title: Boruto: Naruto Next Generations Subtitle Indonesia
-First Result ID: borot-sub-indo
+--- TESTING SAMEHADAKU VIDEO ---
 
-Fetching detail: https://www.sankavollerei.com/anime/anime/borot-sub-indo
-Detail OK: Yes
-Title: Boruto
+Requesting: https://www.sankavollerei.com/anime/samehadaku/search?q=naruto
+Status: OK
+Using Anime ID: naruto-kecil
 
-Fetching episode detail: https://www.sankavollerei.com/anime/episode/btr-nng-episode-293-sub-indo
-Episode OK: Yes
-Fetching Server Detail: https://www.sankavollerei.com/anime/server/68D8BB-5-8B5u
-Server OK: Yes
-Final URL: https://desustream.info/dstream/arcg/?id=Slo4djh2d3NIOWhCTWpacjZBaitxZnBDeWw0Y1ptN1lkRUZhR2o1bms3S0NLZnhOcEQyVlpJUThCbXVlcE51bA==
+Requesting: https://www.sankavollerei.com/anime/samehadaku/anime/naruto-kecil
+Status: OK
+Using Episode ID: naruto-kecil-episode-220
+
+Requesting: https://www.sankavollerei.com/anime/samehadaku/episode/naruto-kecil-episode-220
+Status: OK
+Default Stream: https://www.blogger.com/video.g?token=AD6v5dzYzfD2RNGQ7z3O9jaE2DDz2YSbXHGiR0bKWm7EG4jJaHdojrVGGe3outgSA1utLZ5baViD8VE8o2rSuSzMnuZWx1wCzFZltCJbMBBudsCVUFK9gDbLMI0DbP2t2zQjvX028w
+Has Server Qualities: Yes
+
+Requesting: https://www.sankavollerei.com/anime/samehadaku/server/8CE5E-6-xhmyrq
+Status: OK
+Final URL: https://www.blogger.com/video.g?token=AD6v5dzYzfD2RNGQ7z3O9jaE2DDz2YSbXHGiR0bKWm7EG4jJaHdojrVGGe3outgSA1utLZ5baViD8VE8o2rSuSzMnuZWx1wCzFZltCJbMBBudsCVUFK9gDbLMI0DbP2t2zQjvX028w

@@ -1,68 +1,51 @@
 <?php
-require __DIR__ . '/vendor/autoload.php';
-$app = require_once __DIR__ . '/bootstrap/app.php';
-$app->make(Illuminate\Contracts\Console\Kernel::class)->bootstrap();
 
-use Illuminate\Support\Facades\Http;
+function apiReq($url) {
+    echo "\nRequesting: $url\n";
+    $opts = [
+        "http" => [
+            "method" => "GET",
+            "header" => "User-Agent: Mozilla/5.0\r\nAccept: application/json\r\n"
+        ],
+        "ssl" => [
+            "verify_peer" => false,
+            "verify_peer_name" => false,
+        ]
+    ];
+    $context = stream_context_create($opts);
+    $res = @file_get_contents($url, false, $context);
+    if ($res === FALSE) {
+        echo "Status: FAILED\n";
+        return null;
+    }
+    echo "Status: OK\n";
+    return json_decode($res, true);
+}
 
-$query = "naruto";
-$url = "https://www.sankavollerei.com/anime/search/" . urlencode($query);
+echo "--- TESTING SAMEHADAKU VIDEO ---\n";
 
-echo "Searching for $query via $url...\n";
-
-$response = Http::withoutVerifying()->get($url);
-
-if ($response->successful()) {
-    $data = $response->json();
-    echo "OK: " . ($data['ok'] ? 'Yes' : 'No') . "\n";
-    $results = $data['data']['animeList'] ?? [];
-    echo "Count: " . count($results) . "\n";
+$searchS = apiReq("https://www.sankavollerei.com/anime/samehadaku/search?q=naruto");
+if ($searchS && !empty($searchS['data']['animeList'])) {
+    $animeId = $searchS['data']['animeList'][0]['animeId'];
+    echo "Using Anime ID: $animeId\n";
     
-    if (!empty($results)) {
-        $first = $results[0];
-        echo "First Result Title: " . $first['title'] . "\n";
-        echo "First Result ID: " . $first['animeId'] . "\n";
+    $detailS = apiReq("https://www.sankavollerei.com/anime/samehadaku/anime/$animeId");
+    if($detailS && !empty($detailS['data']['episodeList'])) {
+        $epId = $detailS['data']['episodeList'][0]['episodeId'];
+        echo "Using Episode ID: $epId\n";
         
-        $firstId = $first['animeId'];
-        $detailUrl = "https://www.sankavollerei.com/anime/anime/" . $firstId;
-        echo "\nFetching detail: $detailUrl\n";
-        $res = Http::withoutVerifying()->get($detailUrl);
-        if ($res->successful()) {
-            $det = $res->json();
-            echo "Detail OK: " . ($det['ok'] ? 'Yes' : 'No') . "\n";
-            echo "Title: " . ($det['data']['title'] ?? 'N/A') . "\n";
-            if (isset($det['data']['episodeList']) && count($det['data']['episodeList']) > 0) {
-                $epId = $det['data']['episodeList'][0]['episodeId'];
-                $epUrl = "https://www.sankavollerei.com/anime/episode/" . $epId;
-                echo "\nFetching episode detail: $epUrl\n";
-                $resEp = Http::withoutVerifying()->get($epUrl);
-                if ($resEp->successful()) {
-                    $epData = $resEp->json();
-                    echo "Episode OK: " . ($epData['ok'] ? 'Yes' : 'No') . "\n";
-                    $qualities = $epData['data']['server']['qualities'] ?? [];
-                    if (!empty($qualities)) {
-                        $firstQual = $qualities[0];
-                        $serverList = $firstQual['serverList'] ?? [];
-                        if (!empty($serverList)) {
-                            $srv = $serverList[0];
-                            $srvId = $srv['serverId'];
-                            $srvUrl = "https://www.sankavollerei.com/anime/server/" . $srvId;
-                            echo "Fetching Server Detail: $srvUrl\n";
-                            $resSrv = Http::withoutVerifying()->get($srvUrl);
-                            if ($resSrv->successful()) {
-                                echo "Server OK: " . ($resSrv->json()['ok'] ? 'Yes' : 'No') . "\n";
-                                echo "Final URL: " . ($resSrv->json()['data']['url'] ?? 'N/A') . "\n";
-                            }
-                        }
-                    }
-                } else {
-                    echo "Episode Failed: " . $resEp->status() . "\n";
-                }
+        $videoS = apiReq("https://www.sankavollerei.com/anime/samehadaku/episode/$epId");
+        if($videoS) {
+            echo "Default Stream: " . ($videoS['data']['defaultStreamingUrl'] ?? 'N/A') . "\n";
+            if(isset($videoS['data']['server']['qualities'])) {
+                 echo "Has Server Qualities: Yes\n";
+                 $qual = $videoS['data']['server']['qualities'][0];
+                 if(!empty($qual['serverList'])) {
+                     $srvId = $qual['serverList'][0]['serverId'];
+                     $finalS = apiReq("https://www.sankavollerei.com/anime/samehadaku/server/$srvId");
+                     echo "Final URL: " . ($finalS['data']['url'] ?? 'N/A') . "\n";
+                 }
             }
-        } else {
-            echo "Detail Failed: " . $res->status() . "\n";
         }
     }
-} else {
-    echo "Search Failed: " . $response->status() . "\n";
 }

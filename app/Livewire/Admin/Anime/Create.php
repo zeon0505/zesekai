@@ -244,7 +244,10 @@ class Create extends Component
                                     if (isset($d['synopsis']['paragraphs'])) {
                                         $syn = implode("\n\n", $d['synopsis']['paragraphs']);
                                     } else {
-                                        $syn = implode("\n\n", $d['synopsis']);
+                                        // Flatten nested arrays if any
+                                        $flat = [];
+                                        array_walk_recursive($d['synopsis'], function($a) use (&$flat) { $flat[] = $a; });
+                                        $syn = implode("\n\n", $flat);
                                     }
                                 } else {
                                     $syn = $d['synopsis'];
@@ -267,9 +270,20 @@ class Create extends Component
                         if ($res && $res->successful()) {
                             $d = $res->json()['detail'] ?? null;
                             if (!$d) return null;
+                            $syn = '';
+                            if (isset($d['synopsis'])) {
+                                if (is_array($d['synopsis'])) {
+                                    $flat = [];
+                                    array_walk_recursive($d['synopsis'], function($a) use (&$flat) { $flat[] = $a; });
+                                    $syn = implode("\n\n", $flat);
+                                } else {
+                                    $syn = $d['synopsis'];
+                                }
+                            }
+
                             return [
                                 'title' => $d['title'] ?? '',
-                                'synopsis' => $d['synopsis'] ?? '',
+                                'synopsis' => $syn,
                                 'poster' => $d['poster'] ?? '',
                                 'type' => $d['info']['type'] ?? 'TV',
                                 'status' => $d['info']['status'] ?? 'Completed',
