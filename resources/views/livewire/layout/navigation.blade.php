@@ -13,10 +13,11 @@
         <!-- Navigation Links -->
         <div class="hidden md:flex gap-10 font-bold text-gray-400 text-[10px] uppercase tracking-[0.2em]">
             <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'text-white' : '' }} hover:text-white transition-colors">Home</a>
+            @auth
+                <a href="{{ route('dashboard') }}" class="{{ request()->routeIs('dashboard') ? 'text-white' : '' }} hover:text-white transition-colors text-red-500">Dashboard</a>
+            @endauth
             <a href="{{ route('trending') }}" class="{{ request()->routeIs('trending') ? 'text-white' : '' }} hover:text-white transition-colors">Trending</a>
             <a href="{{ route('catalog') }}" class="{{ request()->routeIs('catalog') ? 'text-white' : '' }} hover:text-white transition-colors">Catalog</a>
-            
-
         </div>
 
         <!-- User Settings -->
@@ -34,6 +35,9 @@
                                 Admin Panel
                             </a>
                         @endif
+                        <a href="{{ route('dashboard') }}" class="block px-4 py-2 text-[10px] font-bold text-red-500 hover:text-red-400 hover:bg-white/5 transition uppercase tracking-widest border-b border-white/5">
+                            User Dashboard
+                        </a>
                         <a href="{{ route('profile') }}" class="block px-4 py-2 text-[10px] font-bold text-gray-400 hover:text-white hover:bg-white/5 transition uppercase tracking-widest">
                             Profile
                         </a>
@@ -68,7 +72,7 @@
         <a href="{{ route('catalog') }}" class="block text-[10px] font-black text-gray-400 uppercase tracking-widest">Catalog</a>
         
         @auth
-
+            <a href="{{ route('dashboard') }}" class="block text-[10px] font-black text-red-600 uppercase tracking-widest">Dashboard</a>
             <a href="{{ route('profile') }}" class="block text-[10px] font-black text-gray-400 uppercase tracking-widest">Profile</a>
             <button x-on:click.prevent="$dispatch('open-modal', 'confirm-logout')" class="block w-full text-left text-[10px] font-black text-red-600 uppercase tracking-widest">Logout</button>
         @else
