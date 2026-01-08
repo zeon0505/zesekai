@@ -1,0 +1,312 @@
+{
+  "status": "success",
+  "creator": "Sanka Vollerei",
+  "statusCode": 200,
+  "statusMessage": "OK",
+  "message": "",
+  "ok": true,
+  "data": {
+    "title": "Jujutsu Kaisen",
+    "poster": "https://otakudesu.best/wp-content/uploads/2020/09/Jujutsu-Kaisen-Sub-Indo.jpg",
+    "japanese": "呪術廻戦",
+    "score": "8.78",
+    "producers": "TOHO animation, Shueisha, dugout",
+    "type": "TV",
+    "status": "Completed",
+    "episodes": 24,
+    "duration": "24 Menit",
+    "aired": "Oct 3, 2020",
+    "studios": "MAPPA",
+    "batch": {
+      "title": "Jujutsu Kaisen [BATCH] Subtitle Indonesia",
+      "batchId": "jjtsu-ksn-batch-sub-indo",
+      "href": "/anime/batch/jjtsu-ksn-batch-sub-indo",
+      "otakudesuUrl": "https://otakudesu.best/batch/jjtsu-ksn-batch-sub-indo/"
+    },
+    "synopsis": {
+      "paragraphs": [
+        "Mengisahkan Yuuji Itadori, seorang siswa SMA yang sangat ahli dalam olahraga atletik, khususnya Lari. Walau memiliki kemampuan yang setara dengan professional, Yuuji memutuskan untuk bergabung dengan Klub Paranormal atau biasa dipanggil dengan Klub Penelitian Ilmu Gaib.",
+        "Yuuji memiliki alasan sendiri mengapa dirinya memilih klub tersebut. Sebab, Yuuji juga harus menjaga kakeknya yang tengah terbaring di rumah sakit. Jadi, tidak heran mengapa ia memilih klub yang mengizinkan anggotanya pulang sebelum jam lima sore.",
+        "Awalnya, kehidupan Yuuji berjalan  cukup normal dan biasa-biasa saja. Namun, keterlibatannya dengan roh disekolah tempat ia belajar mengubah kehidupan Yuuji. Bagaimana cara Yuuji menghadapi hal tersebut?"
+      ],
+      "connections": [
+        {
+          "title": "Jujutsu Kaisen Season 2",
+          "animeId": "jjk-s2-sub-indo",
+          "href": "/anime/anime/jjk-s2-sub-indo",
+          "otakudesuUrl": "https://otakudesu.best/anime/jjk-s2-sub-indo/"
+        }
+      ]
+    },
+    "genreList": [
+      {
+        "title": "Action",
+        "genreId": "action",
+        "href": "/anime/genre/action",
+        "otakudesuUrl": "https://otakudesu.best/genres/action/"
+      },
+      {
+        "title": "Demons",
+        "genreId": "demons",
+        "href": "/anime/genre/demons",
+        "otakudesuUrl": "https://otakudesu.best/genres/demons/"
+      },
+      {
+        "title": "Horror",
+        "genreId": "horror",
+        "href": "/anime/genre/horror",
+        "otakudesuUrl": "https://otakudesu.best/genres/horror/"
+      },
+      {
+        "title": "School",
+        "genreId": "school",
+        "href": "/anime/genre/school",
+        "otakudesuUrl": "https://otakudesu.best/genres/school/"
+      },
+      {
+        "title": "Shounen",
+        "genreId": "shounen",
+        "href": "/anime/genre/shounen",
+        "otakudesuUrl": "https://otakudesu.best/genres/shounen/"
+      },
+      {
+        "title": "Supernatural",
+        "genreId": "supernatural",
+        "href": "/anime/genre/supernatural",
+        "otakudesuUrl": "https://otakudesu.best/genres/supernatural/"
+      }
+    ],
+    "episodeList": [
+      {
+        "title": "Jujutsu Kaisen Episode 24 (End) Subtitle Indonesia",
+        "eps": 24,
+        "date": "30 Maret,2021",
+        "episodeId": "jjtsu-ksn-episode-24-sub-indo",
+        "href": "/anime/episode/jjtsu-ksn-episode-24-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/jjtsu-ksn-episode-24-sub-indo/"
+      },
+      {
+        "title": "Jujutsu Kaisen Episode 23 Subtitle Indonesia",
+        "eps": 23,
+        "date": "30 Maret,2021",
+        "episodeId": "jjtsu-ksn-episode-23-sub-indo",
+        "href": "/anime/episode/jjtsu-ksn-episode-23-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/jjtsu-ksn-episode-23-sub-indo/"
+      },
+      {
+        "title": "Jujutsu Kaisen Episode 22 Subtitle Indonesia",
+        "eps": 22,
+        "date": "30 Maret,2021",
+        "episodeId": "jjtsu-ksn-episode-22-sub-indo",
+        "href": "/anime/episode/jjtsu-ksn-episode-22-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/jjtsu-ksn-episode-22-sub-indo/"
+      },
+      {
+        "title": "Jujutsu Kaisen Episode 21 Subtitle Indonesia",
+        "eps": 21,
+        "date": "30 Maret,2021",
+        "episodeId": "jjtsu-ksn-episode-21-sub-indo",
+        "href": "/anime/episode/jjtsu-ksn-episode-21-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/jjtsu-ksn-episode-21-sub-indo/"
+      },
+      {
+        "title": "Jujutsu Kaisen Episode 20 Subtitle Indonesia",
+        "eps": 20,
+        "date": "30 Maret,2021",
+        "episodeId": "jjtsu-ksn-episode-20-sub-indo",
+        "href": "/anime/episode/jjtsu-ksn-episode-20-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/jjtsu-ksn-episode-20-sub-indo/"
+      },
+      {
+        "title": "Jujutsu Kaisen Episode 19 Subtitle Indonesia",
+        "eps": 19,
+        "date": "30 Maret,2021",
+        "episodeId": "jjtsu-ksn-episode-19-sub-indo",
+        "href": "/anime/episode/jjtsu-ksn-episode-19-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/jjtsu-ksn-episode-19-sub-indo/"
+      },
+      {
+        "title": "Jujutsu Kaisen Episode 18 Subtitle Indonesia",
+        "eps": 18,
+        "date": "30 Maret,2021",
+        "episodeId": "jjtsu-ksn-episode-18-sub-indo",
+        "href": "/anime/episode/jjtsu-ksn-episode-18-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/jjtsu-ksn-episode-18-sub-indo/"
+      },
+      {
+        "title": "Jujutsu Kaisen Episode 17 Subtitle Indonesia",
+        "eps": 17,
+        "date": "30 Maret,2021",
+        "episodeId": "jjtsu-ksn-episode-17-sub-indo",
+        "href": "/anime/episode/jjtsu-ksn-episode-17-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/jjtsu-ksn-episode-17-sub-indo/"
+      },
+      {
+        "title": "Jujutsu Kaisen Episode 16 Subtitle Indonesia",
+        "eps": 16,
+        "date": "30 Maret,2021",
+        "episodeId": "jjtsu-ksn-episode-16-sub-indo",
+        "href": "/anime/episode/jjtsu-ksn-episode-16-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/jjtsu-ksn-episode-16-sub-indo/"
+      },
+      {
+        "title": "Jujutsu Kaisen Episode 15 Subtitle Indonesia",
+        "eps": 15,
+        "date": "30 Maret,2021",
+        "episodeId": "jjtsu-ksn-episode-15-sub-indo",
+        "href": "/anime/episode/jjtsu-ksn-episode-15-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/jjtsu-ksn-episode-15-sub-indo/"
+      },
+      {
+        "title": "Jujutsu Kaisen Episode 14 Subtitle Indonesia",
+        "eps": 14,
+        "date": "30 Maret,2021",
+        "episodeId": "jjtsu-ksn-episode-14-sub-indo",
+        "href": "/anime/episode/jjtsu-ksn-episode-14-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/jjtsu-ksn-episode-14-sub-indo/"
+      },
+      {
+        "title": "Jujutsu Kaisen Episode 13 Subtitle Indonesia",
+        "eps": 13,
+        "date": "30 Maret,2021",
+        "episodeId": "jjtsu-ksn-episode-13-sub-indo",
+        "href": "/anime/episode/jjtsu-ksn-episode-13-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/jjtsu-ksn-episode-13-sub-indo/"
+      },
+      {
+        "title": "Jujutsu Kaisen Episode 12 Subtitle Indonesia",
+        "eps": 12,
+        "date": "30 Maret,2021",
+        "episodeId": "jjtsu-ksn-episode-12-sub-indo",
+        "href": "/anime/episode/jjtsu-ksn-episode-12-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/jjtsu-ksn-episode-12-sub-indo/"
+      },
+      {
+        "title": "Jujutsu Kaisen Episode 11 Subtitle Indonesia",
+        "eps": 11,
+        "date": "30 Maret,2021",
+        "episodeId": "jjtsu-ksn-episode-11-sub-indo",
+        "href": "/anime/episode/jjtsu-ksn-episode-11-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/jjtsu-ksn-episode-11-sub-indo/"
+      },
+      {
+        "title": "Jujutsu Kaisen Episode 10 Subtitle Indonesia",
+        "eps": 10,
+        "date": "30 Maret,2021",
+        "episodeId": "jjtsu-ksn-episode-10-sub-indo",
+        "href": "/anime/episode/jjtsu-ksn-episode-10-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/jjtsu-ksn-episode-10-sub-indo/"
+      },
+      {
+        "title": "Jujutsu Kaisen Episode 9 Subtitle Indonesia",
+        "eps": 9,
+        "date": "30 Maret,2021",
+        "episodeId": "jjtsu-ksn-episode-9-sub-indo",
+        "href": "/anime/episode/jjtsu-ksn-episode-9-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/jjtsu-ksn-episode-9-sub-indo/"
+      },
+      {
+        "title": "Jujutsu Kaisen Episode 8 Subtitle Indonesia",
+        "eps": 8,
+        "date": "30 Maret,2021",
+        "episodeId": "jjtsu-ksn-episode-8-sub-indo",
+        "href": "/anime/episode/jjtsu-ksn-episode-8-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/jjtsu-ksn-episode-8-sub-indo/"
+      },
+      {
+        "title": "Jujutsu Kaisen Episode 7 Subtitle Indonesia",
+        "eps": 7,
+        "date": "30 Maret,2021",
+        "episodeId": "jjtsu-ksn-episode-7-sub-indo",
+        "href": "/anime/episode/jjtsu-ksn-episode-7-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/jjtsu-ksn-episode-7-sub-indo/"
+      },
+      {
+        "title": "Jujutsu Kaisen Episode 6 Subtitle Indonesia",
+        "eps": 6,
+        "date": "30 Maret,2021",
+        "episodeId": "jjtsu-ksn-episode-6-sub-indo",
+        "href": "/anime/episode/jjtsu-ksn-episode-6-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/jjtsu-ksn-episode-6-sub-indo/"
+      },
+      {
+        "title": "Jujutsu Kaisen Episode 5 Subtitle Indonesia",
+        "eps": 5,
+        "date": "30 Maret,2021",
+        "episodeId": "jjtsu-ksn-episode-5-sub-indo",
+        "href": "/anime/episode/jjtsu-ksn-episode-5-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/jjtsu-ksn-episode-5-sub-indo/"
+      },
+      {
+        "title": "Jujutsu Kaisen Episode 4 Subtitle Indonesia",
+        "eps": 4,
+        "date": "30 Maret,2021",
+        "episodeId": "jjtsu-ksn-episode-4-sub-indo",
+        "href": "/anime/episode/jjtsu-ksn-episode-4-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/jjtsu-ksn-episode-4-sub-indo/"
+      },
+      {
+        "title": "Jujutsu Kaisen Episode 3 Subtitle Indonesia",
+        "eps": 3,
+        "date": "30 Maret,2021",
+        "episodeId": "jjtsu-ksn-episode-3-sub-indo",
+        "href": "/anime/episode/jjtsu-ksn-episode-3-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/jjtsu-ksn-episode-3-sub-indo/"
+      },
+      {
+        "title": "Jujutsu Kaisen Episode 2 Subtitle Indonesia",
+        "eps": 2,
+        "date": "30 Maret,2021",
+        "episodeId": "jjtsu-ksn-episode-2-sub-indo",
+        "href": "/anime/episode/jjtsu-ksn-episode-2-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/jjtsu-ksn-episode-2-sub-indo/"
+      },
+      {
+        "title": "Jujutsu Kaisen Episode 1 Subtitle Indonesia",
+        "eps": 1,
+        "date": "30 Maret,2021",
+        "episodeId": "jjtsu-ksn-episode-1-sub-indo",
+        "href": "/anime/episode/jjtsu-ksn-episode-1-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/jjtsu-ksn-episode-1-sub-indo/"
+      }
+    ],
+    "recommendedAnimeList": [
+      {
+        "title": "Bukiyou na Senpai",
+        "poster": "https://otakudesu.best/wp-content/uploads/2026/01/Bukiyou-na-Senpai-Sub-Indo.jpg",
+        "animeId": "bukiyou-senpai-sub-indo",
+        "href": "/anime/anime/bukiyou-senpai-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/anime/bukiyou-senpai-sub-indo/"
+      },
+      {
+        "title": "Sozai Saishuka no Isekai Ryokouki",
+        "poster": "https://otakudesu.best/wp-content/uploads/2025/12/Sozai-Saishuka-no-Isekai-Ryokouki-Sub-Indo.jpg",
+        "animeId": "sozai-isekai-ryokouki-sub-indo",
+        "href": "/anime/anime/sozai-isekai-ryokouki-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/anime/sozai-isekai-ryokouki-sub-indo/"
+      },
+      {
+        "title": "Boku no Hero Academia Season 8",
+        "poster": "https://otakudesu.best/wp-content/uploads/2025/12/Boku-no-Hero-Academia-Season-8-Sub-Indo.jpg",
+        "animeId": "bnha-season-8-sub-indo",
+        "href": "/anime/anime/bnha-season-8-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/anime/bnha-season-8-sub-indo/"
+      },
+      {
+        "title": "Mushoku no Eiyuu",
+        "poster": "https://otakudesu.best/wp-content/uploads/2025/12/Mushoku-no-Eiyuu-Sub-Indo.jpg",
+        "animeId": "mushoku-eiyuu-sub-indo",
+        "href": "/anime/anime/mushoku-eiyuu-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/anime/mushoku-eiyuu-sub-indo/"
+      },
+      {
+        "title": "Jigoku Sensei Nube",
+        "poster": "https://otakudesu.best/wp-content/uploads/2025/12/Jigoku-Sensei-Nube-Sub-Indo.jpg",
+        "animeId": "jigoku-sensei-2025-sub-indo",
+        "href": "/anime/anime/jigoku-sensei-2025-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/anime/jigoku-sensei-2025-sub-indo/"
+      }
+    ]
+  },
+  "pagination": null
+}

@@ -1,0 +1,124 @@
+{
+  "status": "success",
+  "creator": "Sanka Vollerei",
+  "message": "",
+  "data": {
+    "title": "",
+    "poster": "https://v1.samehadaku.how/wp-content/uploads/2021/10/118763l.jpg",
+    "score": {
+      "value": "8.38",
+      "users": "322,116"
+    },
+    "japanese": "鬼滅の刃 無限列車編",
+    "synonyms": "Kimetsu no Yaiba Movie: Mugen Ressha-hen (TV)",
+    "english": "The Demon Slayer: Kimetsu no Yaiba Mugen Train Arc TV",
+    "status": "Completed",
+    "type": "TV",
+    "source": "Manga",
+    "duration": "24 min. per ep.",
+    "episodes": 7,
+    "season": "Fall 2021",
+    "studios": "ufotable",
+    "producers": "None Found",
+    "aired": "Oct 10, 2021 to Nov 21, 2021",
+    "trailer": "",
+    "synopsis": {
+      "paragraphs": [
+        "Versi Series/Episode Kimetsu no Yaiba Mugen Train dengan beberapa scene baru yang tidak ada di Movie sebelum memulai menayangkan Season ke-2nya Desember 2021 nanti.",
+        "Lihat juga:"
+      ],
+      "connections": [
+        {
+          "title": "Nonton Kimetsu no Yaiba Movie: Mugen Train",
+          "animeId": "kimetsu-no-yaiba-movie-mugen-train",
+          "href": "/samehadaku/anime/kimetsu-no-yaiba-movie-mugen-train",
+          "samehadakuUrl": "https://v1.samehadaku.how"
+        },
+        {
+          "title": "Nonton Kimetsu no Yaiba S1",
+          "animeId": "kimetsu-no-yaiba",
+          "href": "/samehadaku/anime/kimetsu-no-yaiba",
+          "samehadakuUrl": "https://v1.samehadaku.how"
+        },
+        {
+          "title": "Nonton Kimetsu no Yaiba S2",
+          "animeId": "kimetsu-no-yaiba-s2",
+          "href": "/samehadaku/anime/kimetsu-no-yaiba-s2",
+          "samehadakuUrl": "https://v1.samehadaku.how"
+        }
+      ]
+    },
+    "genreList": [
+      {
+        "title": "Action",
+        "genreId": "action",
+        "href": "/samehadaku/genres/action",
+        "samehadakuUrl": "https://v1.samehadaku.how/genre/action"
+      },
+      {
+        "title": "Fantasy",
+        "genreId": "fantasy",
+        "href": "/samehadaku/genres/fantasy",
+        "samehadakuUrl": "https://v1.samehadaku.how/genre/fantasy"
+      },
+      {
+        "title": "Historical",
+        "genreId": "historical",
+        "href": "/samehadaku/genres/historical",
+        "samehadakuUrl": "https://v1.samehadaku.how/genre/historical"
+      },
+      {
+        "title": "Shounen",
+        "genreId": "shounen",
+        "href": "/samehadaku/genres/shounen",
+        "samehadakuUrl": "https://v1.samehadaku.how/genre/shounen"
+      }
+    ],
+    "batchList": [],
+    "episodeList": [
+      {
+        "title": 7,
+        "episodeId": "kimetsu-no-yaiba-mugen-ressha-hen-episode-7-end",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-mugen-ressha-hen-episode-7-end",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-mugen-ressha-hen-episode-7-end/"
+      },
+      {
+        "title": 6,
+        "episodeId": "kimetsu-no-yaiba-mugen-ressha-hen-episode-6",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-mugen-ressha-hen-episode-6",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-mugen-ressha-hen-episode-6/"
+      },
+      {
+        "title": 5,
+        "episodeId": "kimetsu-no-yaiba-mugen-ressha-hen-episode-5",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-mugen-ressha-hen-episode-5",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-mugen-ressha-hen-episode-5/"
+      },
+      {
+        "title": 4,
+        "episodeId": "kimetsu-no-yaiba-mugen-ressha-hen-episode-4",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-mugen-ressha-hen-episode-4",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-mugen-ressha-hen-episode-4/"
+      },
+      {
+        "title": 3,
+        "episodeId": "kimetsu-no-yaiba-mugen-ressha-hen-tv-series-episode-3",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-mugen-ressha-hen-tv-series-episode-3",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-mugen-ressha-hen-tv-series-episode-3/"
+      },
+      {
+        "title": 2,
+        "episodeId": "kimetsu-no-yaiba-mugen-ressha-hen-tv-series-episode-2",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-mugen-ressha-hen-tv-series-episode-2",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-mugen-ressha-hen-tv-series-episode-2/"
+      },
+      {
+        "title": 1,
+        "episodeId": "kimetsu-no-yaiba-mugen-ressha-hen-tv-series-episode-1",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-mugen-ressha-hen-tv-series-episode-1",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-mugen-ressha-hen-tv-series-episode-1/"
+      }
+    ]
+  },
+  "pagination": null
+}

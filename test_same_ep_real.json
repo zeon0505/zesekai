@@ -1,0 +1,524 @@
+{
+  "status": "success",
+  "creator": "Sanka Vollerei",
+  "message": "",
+  "data": {
+    "title": "Kimetsu no Yaiba Episode 26 [Selesai] Sub Indo",
+    "animeId": "kimetsu-no-yaiba",
+    "poster": "https://v1.samehadaku.how/wp-content/uploads/2021/12/Kimetsu-no-Yaiba-Season-1.jpg",
+    "releasedOn": "7 years yang lalu",
+    "defaultStreamingUrl": "No iframe found",
+    "hasPrevEpisode": true,
+    "prevEpisode": {
+      "title": "Prev",
+      "episodeId": "kimetsu-no-yaiba-episode-25",
+      "href": "/samehadaku/episode/kimetsu-no-yaiba-episode-25",
+      "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-episode-25/"
+    },
+    "hasNextEpisode": false,
+    "nextEpisode": null,
+    "synopsis": {
+      "paragraphs": [
+        "Sinopsis Kimetsu no Yaiba Season 1: Bercerita tentang seorang bernama Tanjirou Kamado, pemuda sulung dari keluarga yang kurang mampu dan tinggal di pedalaman gunung pada era Taisho. Sejak dahulu, muncul rumor tentang Oni (Iblis Pemakan Manusia) yang bersembunyi di hutan. Dikarenakan hal itu, penduduk setempat tidak pernah berani keluar di malam hari. Legenda mengatakan bahwa Pembasmi Oni juga berkeliaran di malam hari dan memburu iblis yang haus darah. Bagi Tanjirou yang belum mengetahui apa-apa, hal itu hanyalah sekedar rumor belaka dan tidak akan menyebabkan masalah di kehidupannya.\n\nSejak kematian ayahnya, Tanjirou menggantikan ayahnya untuk memenuhi kebutuhan keluarganya. Meski kehidupan mereka sangat berat, mereka merasakan kebahagiaan dan kehangatan yang luar biasa dari keluarganya. Tapi, kebahagiaan itu hancur saat Tanjirou melihat keluarganya dibantai saat dirinya meninggalkan rumah untuk bekerja menjual arang di Kota. Tidak hanya itu, satu-satunya keluarganya yang selamat, adik perempuannya Nezuko, berubah menjadi Oni. Namun yang mengejutkannya, Nezuko masih menunjukkan emosi dan pemikiran manusia dengan mencoba melindungi Tanjirou dari serangan Pembasmi Oni. Dimulailah perjalanan Tanjirou untuk melawan Oni dan mengembalikan adiknya menjadi manusia kembali.\n\nLihat juga:\n\n \t\n \t\n \tKimetsu no Yaiba Season 2"
+      ],
+      "connections": [
+        {
+          "title": "Kimetsu no Yaiba Movie: Mugen Train",
+          "animeId": "kimetsu-no-yaiba-movie-mugen-train",
+          "href": "/samehadaku/anime/kimetsu-no-yaiba-movie-mugen-train",
+          "samehadakuUrl": "https://v1.samehadaku.how"
+        },
+        {
+          "title": "Kimetsu no Yaiba: Mugen Ressha-hen TV Series",
+          "animeId": "kimetsu-no-yaiba-mugen-ressha-hen-tv-series",
+          "href": "/samehadaku/anime/kimetsu-no-yaiba-mugen-ressha-hen-tv-series",
+          "samehadakuUrl": "https://v1.samehadaku.how"
+        }
+      ]
+    },
+    "genreList": [
+      {
+        "title": "Action",
+        "genreId": "action",
+        "href": "/samehadaku/genres/action",
+        "samehadakuUrl": "https://v1.samehadaku.how/genre/action"
+      },
+      {
+        "title": "Supernatural",
+        "genreId": "supernatural",
+        "href": "/samehadaku/genres/supernatural",
+        "samehadakuUrl": "https://v1.samehadaku.how/genre/supernatural"
+      }
+    ],
+    "server": {
+      "qualities": [
+        {
+          "title": "unknown",
+          "serverList": [
+            {
+              "title": "Server 1",
+              "serverId": "6895-6-xhmyrq",
+              "href": "/samehadaku/server/6895-6-xhmyrq"
+            },
+            {
+              "title": "Server 2",
+              "serverId": "6895-7-xhmyrq",
+              "href": "/samehadaku/server/6895-7-xhmyrq"
+            }
+          ]
+        },
+        {
+          "title": "360p",
+          "serverList": []
+        },
+        {
+          "title": "480p",
+          "serverList": []
+        },
+        {
+          "title": "720p",
+          "serverList": []
+        },
+        {
+          "title": "1080p",
+          "serverList": []
+        },
+        {
+          "title": "4k",
+          "serverList": []
+        }
+      ]
+    },
+    "downloadUrl": {
+      "formats": [
+        {
+          "title": "MP4",
+          "qualities": [
+            {
+              "title": "720p ",
+              "urls": [
+                {
+                  "title": "Zippyshare",
+                  "url": "https://www14.zippyshare.com/v/H1IIYJud/file.html"
+                },
+                {
+                  "title": "Racaty",
+                  "url": "https://racaty.net/62tmrna9vl66"
+                },
+                {
+                  "title": "G-Drive",
+                  "url": "https://gdriveplayer.me/download.php?link=H8gSGxtl5BDlYT55j42hrwEB06z6VAW4qk1k5tJYlcuePdElWfm7i9eK3emT8byTql5e%252FZP%252BchN5fgUjrzji7l9%252FBxgtbh9D5jGYxOqYWPxqlrwtwW5Uvi5mrYrFjm9FY5BttBt14gOtEiXkIa0E49KakMXh567aXHqeHujEDD3ah%252F2VRuIcBbyYXDs4vmYqs%253D"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "recommendedEpisodeList": [
+      {
+        "title": "Kimetsu no Yaiba Episode 26 [Selesai]",
+        "poster": "",
+        "releaseDate": "14 April 2019",
+        "episodeId": "kimetsu-no-yaiba-episode-26",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-episode-26",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-episode-26/"
+      },
+      {
+        "title": "Kimetsu no Yaiba Episode 25",
+        "poster": "",
+        "releaseDate": "15 April 2019",
+        "episodeId": "kimetsu-no-yaiba-episode-26",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-episode-25",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-episode-25/"
+      },
+      {
+        "title": "Kimetsu no Yaiba Episode 24",
+        "poster": "",
+        "releaseDate": "15 April 2019",
+        "episodeId": "kimetsu-no-yaiba-episode-26",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-episode-24",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-episode-24/"
+      },
+      {
+        "title": "Kimetsu no Yaiba Episode 23",
+        "poster": "",
+        "releaseDate": "15 April 2019",
+        "episodeId": "kimetsu-no-yaiba-episode-26",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-episode-23",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-episode-23/"
+      },
+      {
+        "title": "Kimetsu no Yaiba Episode 22",
+        "poster": "",
+        "releaseDate": "15 April 2019",
+        "episodeId": "kimetsu-no-yaiba-episode-26",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-episode-22",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-episode-22/"
+      },
+      {
+        "title": "Kimetsu no Yaiba Episode 21",
+        "poster": "",
+        "releaseDate": "15 April 2019",
+        "episodeId": "kimetsu-no-yaiba-episode-26",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-episode-21",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-episode-21/"
+      },
+      {
+        "title": "Kimetsu no Yaiba Episode 20",
+        "poster": "",
+        "releaseDate": "15 April 2019",
+        "episodeId": "kimetsu-no-yaiba-episode-26",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-episode-20",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-episode-20/"
+      },
+      {
+        "title": "Kimetsu no Yaiba Episode 19",
+        "poster": "",
+        "releaseDate": "15 April 2019",
+        "episodeId": "kimetsu-no-yaiba-episode-26",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-episode-19",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-episode-19/"
+      },
+      {
+        "title": "Kimetsu no Yaiba Episode 18",
+        "poster": "",
+        "releaseDate": "15 April 2019",
+        "episodeId": "kimetsu-no-yaiba-episode-26",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-episode-18",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-episode-18/"
+      },
+      {
+        "title": "Kimetsu no Yaiba Episode 17",
+        "poster": "",
+        "releaseDate": "15 April 2019",
+        "episodeId": "kimetsu-no-yaiba-episode-26",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-episode-17",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-episode-17/"
+      },
+      {
+        "title": "Kimetsu no Yaiba Episode 16",
+        "poster": "",
+        "releaseDate": "15 April 2019",
+        "episodeId": "kimetsu-no-yaiba-episode-26",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-episode-16",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-episode-16/"
+      },
+      {
+        "title": "Kimetsu no Yaiba Episode 15",
+        "poster": "",
+        "releaseDate": "15 April 2019",
+        "episodeId": "kimetsu-no-yaiba-episode-26",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-episode-15",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-episode-15/"
+      },
+      {
+        "title": "Kimetsu no Yaiba Episode 14",
+        "poster": "",
+        "releaseDate": "15 April 2019",
+        "episodeId": "kimetsu-no-yaiba-episode-26",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-episode-14",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-episode-14/"
+      },
+      {
+        "title": "Kimetsu no Yaiba Episode 13",
+        "poster": "",
+        "releaseDate": "15 April 2019",
+        "episodeId": "kimetsu-no-yaiba-episode-26",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-episode-13",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-episode-13/"
+      },
+      {
+        "title": "Kimetsu no Yaiba Episode 12",
+        "poster": "",
+        "releaseDate": "15 April 2019",
+        "episodeId": "kimetsu-no-yaiba-episode-26",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-episode-12",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-episode-12/"
+      },
+      {
+        "title": "Kimetsu no Yaiba Episode 11",
+        "poster": "",
+        "releaseDate": "15 April 2019",
+        "episodeId": "kimetsu-no-yaiba-episode-26",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-episode-11",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-episode-11/"
+      },
+      {
+        "title": "Kimetsu no Yaiba Episode 10",
+        "poster": "",
+        "releaseDate": "15 April 2019",
+        "episodeId": "kimetsu-no-yaiba-episode-26",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-episode-10",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-episode-10/"
+      },
+      {
+        "title": "Kimetsu no Yaiba Episode 9",
+        "poster": "",
+        "releaseDate": "15 April 2019",
+        "episodeId": "kimetsu-no-yaiba-episode-26",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-episode-9",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-episode-9/"
+      },
+      {
+        "title": "Kimetsu no Yaiba Episode 8",
+        "poster": "",
+        "releaseDate": "15 April 2019",
+        "episodeId": "kimetsu-no-yaiba-episode-26",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-episode-8",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-episode-8/"
+      },
+      {
+        "title": "Kimetsu no Yaiba Episode 7",
+        "poster": "",
+        "releaseDate": "15 April 2019",
+        "episodeId": "kimetsu-no-yaiba-episode-26",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-episode-7",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-episode-7/"
+      },
+      {
+        "title": "Kimetsu no Yaiba Episode 6",
+        "poster": "",
+        "releaseDate": "15 April 2019",
+        "episodeId": "kimetsu-no-yaiba-episode-26",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-episode-6",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-episode-6/"
+      },
+      {
+        "title": "Kimetsu no Yaiba Episode 5",
+        "poster": "",
+        "releaseDate": "15 April 2019",
+        "episodeId": "kimetsu-no-yaiba-episode-26",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-episode-5",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-episode-5/"
+      },
+      {
+        "title": "Kimetsu no Yaiba Episode 4",
+        "poster": "",
+        "releaseDate": "15 April 2019",
+        "episodeId": "kimetsu-no-yaiba-episode-26",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-episode-4",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-episode-4/"
+      },
+      {
+        "title": "Kimetsu no Yaiba Episode 3",
+        "poster": "",
+        "releaseDate": "15 April 2019",
+        "episodeId": "kimetsu-no-yaiba-episode-26",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-episode-3",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-episode-3/"
+      },
+      {
+        "title": "Kimetsu no Yaiba Episode 2",
+        "poster": "",
+        "releaseDate": "15 April 2019",
+        "episodeId": "kimetsu-no-yaiba-episode-26",
+        "href": "/samehadaku/episode/kimetsu-no-yaiba-episode-2",
+        "samehadakuUrl": "https://v1.samehadaku.how/kimetsu-no-yaiba-episode-2/"
+      }
+    ],
+    "movie": {
+      "href": "/samehadaku/movies",
+      "samehadakuUrl": "https://v1.samehadaku.how//anime-movie/",
+      "animeList": [
+        {
+          "title": "Kimetsu no Yaiba – The Movie: Infinity Castle – Part 1: Akaza Returns",
+          "poster": "https://v1.samehadaku.how/wp-content/uploads/2026/01/148216.jpg",
+          "releaseDate": "Jul 18, 2025",
+          "animeId": "kimetsu-no-yaiba-the-movie-infinity-castle-part-1-akaza-returns",
+          "href": "/samehadaku/anime/kimetsu-no-yaiba-the-movie-infinity-castle-part-1-akaza-returns",
+          "samehadakuUrl": "https://v1.samehadaku.how/anime/kimetsu-no-yaiba-the-movie-infinity-castle-part-1-akaza-returns/",
+          "genreList": [
+            {
+              "title": "Action",
+              "genreId": "action",
+              "href": "/samehadaku/genres/action",
+              "samehadakuUrl": "https://v1.samehadaku.how/genre/action/"
+            },
+            {
+              "title": "Historical",
+              "genreId": "historical",
+              "href": "/samehadaku/genres/historical",
+              "samehadakuUrl": "https://v1.samehadaku.how/genre/historical/"
+            },
+            {
+              "title": "Supernatural",
+              "genreId": "supernatural",
+              "href": "/samehadaku/genres/supernatural",
+              "samehadakuUrl": "https://v1.samehadaku.how/genre/supernatural/"
+            }
+          ]
+        },
+        {
+          "title": "Chainsaw Man Reze-hen",
+          "poster": "https://v1.samehadaku.how/wp-content/uploads/2025/12/bx171627-ZN9D7P46yHnw.png",
+          "releaseDate": "Sep 19, 2025",
+          "animeId": "chainsaw-man-reze-hen-index",
+          "href": "/samehadaku/anime/chainsaw-man-reze-hen-index",
+          "samehadakuUrl": "https://v1.samehadaku.how/anime/chainsaw-man-reze-hen-index/",
+          "genreList": [
+            {
+              "title": "Action",
+              "genreId": "action",
+              "href": "/samehadaku/genres/action",
+              "samehadakuUrl": "https://v1.samehadaku.how/genre/action/"
+            },
+            {
+              "title": "Fantasy",
+              "genreId": "fantasy",
+              "href": "/samehadaku/genres/fantasy",
+              "samehadakuUrl": "https://v1.samehadaku.how/genre/fantasy/"
+            },
+            {
+              "title": "Gore",
+              "genreId": "gore",
+              "href": "/samehadaku/genres/gore",
+              "samehadakuUrl": "https://v1.samehadaku.how/genre/gore/"
+            },
+            {
+              "title": "Shounen",
+              "genreId": "shounen",
+              "href": "/samehadaku/genres/shounen",
+              "samehadakuUrl": "https://v1.samehadaku.how/genre/shounen/"
+            },
+            {
+              "title": "Urban Fantasy",
+              "genreId": "urban-fantasy",
+              "href": "/samehadaku/genres/urban-fantasy",
+              "samehadakuUrl": "https://v1.samehadaku.how/genre/urban-fantasy/"
+            }
+          ]
+        },
+        {
+          "title": "Sidonia no Kishi Ai Tsumugu Hoshi",
+          "poster": "https://v1.samehadaku.how/wp-content/uploads/2025/07/108354.jpg",
+          "releaseDate": "Jun 4, 2021",
+          "animeId": "sidonia-no-kishi-ai-tsumugu-hoshi",
+          "href": "/samehadaku/anime/sidonia-no-kishi-ai-tsumugu-hoshi",
+          "samehadakuUrl": "https://v1.samehadaku.how/anime/sidonia-no-kishi-ai-tsumugu-hoshi/",
+          "genreList": [
+            {
+              "title": "Action",
+              "genreId": "action",
+              "href": "/samehadaku/genres/action",
+              "samehadakuUrl": "https://v1.samehadaku.how/genre/action/"
+            },
+            {
+              "title": "Sci-Fi",
+              "genreId": "sci-fi",
+              "href": "/samehadaku/genres/sci-fi",
+              "samehadakuUrl": "https://v1.samehadaku.how/genre/sci-fi/"
+            }
+          ]
+        },
+        {
+          "title": "Overlord Movie 3 Sei Oukoku hen",
+          "poster": "https://v1.samehadaku.how/wp-content/uploads/2025/04/144101.jpg",
+          "releaseDate": "Sep 20, 2024",
+          "animeId": "overlord-movie-3-sei-oukoku-hen",
+          "href": "/samehadaku/anime/overlord-movie-3-sei-oukoku-hen",
+          "samehadakuUrl": "https://v1.samehadaku.how/anime/overlord-movie-3-sei-oukoku-hen/",
+          "genreList": [
+            {
+              "title": "Action",
+              "genreId": "action",
+              "href": "/samehadaku/genres/action",
+              "samehadakuUrl": "https://v1.samehadaku.how/genre/action/"
+            },
+            {
+              "title": "Adventure",
+              "genreId": "adventure",
+              "href": "/samehadaku/genres/adventure",
+              "samehadakuUrl": "https://v1.samehadaku.how/genre/adventure/"
+            },
+            {
+              "title": "Fantasy",
+              "genreId": "fantasy",
+              "href": "/samehadaku/genres/fantasy",
+              "samehadakuUrl": "https://v1.samehadaku.how/genre/fantasy/"
+            }
+          ]
+        },
+        {
+          "title": "Boku no Hero Academia the Movie 4",
+          "poster": "https://v1.samehadaku.how/wp-content/uploads/2025/02/143549.jpg",
+          "releaseDate": "Aug 2, 2024",
+          "animeId": "boku-no-hero-academia-the-movie-4",
+          "href": "/samehadaku/anime/boku-no-hero-academia-the-movie-4",
+          "samehadakuUrl": "https://v1.samehadaku.how/anime/boku-no-hero-academia-the-movie-4/",
+          "genreList": [
+            {
+              "title": "Action",
+              "genreId": "action",
+              "href": "/samehadaku/genres/action",
+              "samehadakuUrl": "https://v1.samehadaku.how/genre/action/"
+            },
+            {
+              "title": "School",
+              "genreId": "school",
+              "href": "/samehadaku/genres/school",
+              "samehadakuUrl": "https://v1.samehadaku.how/genre/school/"
+            },
+            {
+              "title": "Super Power",
+              "genreId": "super-power",
+              "href": "/samehadaku/genres/super-power",
+              "samehadakuUrl": "https://v1.samehadaku.how/genre/super-power/"
+            }
+          ]
+        },
+        {
+          "title": "Haikyuu!! Movie: Gomisuteba no Kessen",
+          "poster": "https://v1.samehadaku.how/wp-content/uploads/2024/10/140360.jpg",
+          "releaseDate": "Feb 16, 2024",
+          "animeId": "haikyuu-movie-gomisuteba-no-kessen",
+          "href": "/samehadaku/anime/haikyuu-movie-gomisuteba-no-kessen",
+          "samehadakuUrl": "https://v1.samehadaku.how/anime/haikyuu-movie-gomisuteba-no-kessen/",
+          "genreList": [
+            {
+              "title": "School",
+              "genreId": "school",
+              "href": "/samehadaku/genres/school",
+              "samehadakuUrl": "https://v1.samehadaku.how/genre/school/"
+            },
+            {
+              "title": "Sports",
+              "genreId": "sports",
+              "href": "/samehadaku/genres/sports",
+              "samehadakuUrl": "https://v1.samehadaku.how/genre/sports/"
+            },
+            {
+              "title": "TeamSports",
+              "genreId": "teamsports",
+              "href": "/samehadaku/genres/teamsports",
+              "samehadakuUrl": "https://v1.samehadaku.how/genre/teamsports/"
+            }
+          ]
+        },
+        {
+          "title": "Blue Lock: Episode Nagi",
+          "poster": "https://v1.samehadaku.how/wp-content/uploads/2024/09/139928.jpg",
+          "releaseDate": "Apr 19, 2024",
+          "animeId": "blue-lock-episode-nagi",
+          "href": "/samehadaku/anime/blue-lock-episode-nagi",
+          "samehadakuUrl": "https://v1.samehadaku.how/anime/blue-lock-episode-nagi/",
+          "genreList": [
+            {
+              "title": "Sports",
+              "genreId": "sports",
+              "href": "/samehadaku/genres/sports",
+              "samehadakuUrl": "https://v1.samehadaku.how/genre/sports/"
+            },
+            {
+              "title": "Team",
+              "genreId": "team",
+              "href": "/samehadaku/genres/team",
+              "samehadakuUrl": "https://v1.samehadaku.how/genre/team/"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "pagination": null
+}

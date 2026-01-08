@@ -1,0 +1,120 @@
+{
+    "otakudesu": {
+        "status": "success",
+        "creator": "Sanka Vollerei",
+        "statusCode": 200,
+        "statusMessage": "OK",
+        "message": "",
+        "ok": true,
+        "data": {
+            "animeList": [
+                {
+                    "title": "Solo Leveling Season 2 Subtitle Indonesia",
+                    "poster": "https:\/\/otakudesu.best\/wp-content\/uploads\/2025\/01\/145502.jpg",
+                    "status": "Ongoing",
+                    "score": "8.39",
+                    "animeId": "solo-level-s2-sub-indo",
+                    "href": "\/anime\/anime\/solo-level-s2-sub-indo",
+                    "otakudesuUrl": "https:\/\/otakudesu.best\/anime\/solo-level-s2-sub-indo\/",
+                    "genreList": [
+                        {
+                            "title": "Action",
+                            "genreId": "action",
+                            "href": "\/anime\/genre\/action",
+                            "otakudesuUrl": "https:\/\/otakudesu.best\/genres\/action\/"
+                        },
+                        {
+                            "title": "Adventure",
+                            "genreId": "adventure",
+                            "href": "\/anime\/genre\/adventure",
+                            "otakudesuUrl": "https:\/\/otakudesu.best\/genres\/adventure\/"
+                        },
+                        {
+                            "title": "Fantasy",
+                            "genreId": "fantasy",
+                            "href": "\/anime\/genre\/fantasy",
+                            "otakudesuUrl": "https:\/\/otakudesu.best\/genres\/fantasy\/"
+                        }
+                    ]
+                },
+                {
+                    "title": "Solo Leveling (Episode 1 \u2013 12) Subtitle Indonesia",
+                    "poster": "https:\/\/otakudesu.best\/wp-content\/uploads\/2024\/09\/Solo-Leveling-Sub-Indo.jpg",
+                    "status": "Completed",
+                    "score": "8.29",
+                    "animeId": "level-solo-sub-indo",
+                    "href": "\/anime\/anime\/level-solo-sub-indo",
+                    "otakudesuUrl": "https:\/\/otakudesu.best\/anime\/level-solo-sub-indo\/",
+                    "genreList": [
+                        {
+                            "title": "Action",
+                            "genreId": "action",
+                            "href": "\/anime\/genre\/action",
+                            "otakudesuUrl": "https:\/\/otakudesu.best\/genres\/action\/"
+                        },
+                        {
+                            "title": "Adventure",
+                            "genreId": "adventure",
+                            "href": "\/anime\/genre\/adventure",
+                            "otakudesuUrl": "https:\/\/otakudesu.best\/genres\/adventure\/"
+                        },
+                        {
+                            "title": "Fantasy",
+                            "genreId": "fantasy",
+                            "href": "\/anime\/genre\/fantasy",
+                            "otakudesuUrl": "https:\/\/otakudesu.best\/genres\/fantasy\/"
+                        }
+                    ]
+                }
+            ]
+        },
+        "pagination": null
+    },
+    "samehadaku": {
+        "status": "success",
+        "creator": "Sanka Vollerei",
+        "message": "",
+        "data": {
+            "animeList": [
+                {
+                    "title": "Solo Leveling",
+                    "poster": "https:\/\/v1.samehadaku.how\/wp-content\/uploads\/2024\/01\/Solo-Leveling.jpg",
+                    "type": "TV",
+                    "score": "8.40",
+                    "status": "Completed",
+                    "animeId": "solo-leveling",
+                    "href": "\/samehadaku\/anime\/solo-leveling",
+                    "samehadakuUrl": "https:\/\/v1.samehadaku.how\/anime\/solo-leveling\/",
+                    "genreList": [
+                        {
+                            "title": "Action",
+                            "genreId": "action",
+                            "href": "\/samehadaku\/genres\/action",
+                            "samehadakuUrl": "https:\/\/v1.samehadaku.how\/genre\/action\/"
+                        },
+                        {
+                            "title": "Adventure",
+                            "genreId": "adventure",
+                            "href": "\/samehadaku\/genres\/adventure",
+                            "samehadakuUrl": "https:\/\/v1.samehadaku.how\/genre\/adventure\/"
+                        },
+                        {
+                            "title": "Fantasy",
+                            "genreId": "fantasy",
+                            "href": "\/samehadaku\/genres\/fantasy",
+                            "samehadakuUrl": "https:\/\/v1.samehadaku.how\/genre\/fantasy\/"
+                        }
+                    ]
+                }
+            ]
+        },
+        "pagination": {
+            "currentPage": 1,
+            "hasPrevPage": false,
+            "prevPage": null,
+            "hasNextPage": false,
+            "nextPage": null,
+            "totalPages": 1
+        }
+    }
+}

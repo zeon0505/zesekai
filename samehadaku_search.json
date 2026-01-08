@@ -1,0 +1,137 @@
+{
+  "status": "success",
+  "creator": "Sanka Vollerei",
+  "message": "",
+  "data": {
+    "animeList": [
+      {
+        "title": "Jujutsu Kaisen Season 2",
+        "poster": "https://v1.samehadaku.how/wp-content/uploads/2023/07/Jujutsu-Kaisen-Season-2-Cover.jpg",
+        "type": "TV",
+        "score": "8.96",
+        "status": "Completed",
+        "animeId": "jujutsu-kaisen-season-2",
+        "href": "/samehadaku/anime/jujutsu-kaisen-season-2",
+        "samehadakuUrl": "https://v1.samehadaku.how/anime/jujutsu-kaisen-season-2/",
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/samehadaku/genres/action",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/action/"
+          },
+          {
+            "title": "Fantasy",
+            "genreId": "fantasy",
+            "href": "/samehadaku/genres/fantasy",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/fantasy/"
+          },
+          {
+            "title": "School",
+            "genreId": "school",
+            "href": "/samehadaku/genres/school",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/school/"
+          },
+          {
+            "title": "Shounen",
+            "genreId": "shounen",
+            "href": "/samehadaku/genres/shounen",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/shounen/"
+          }
+        ]
+      },
+      {
+        "title": "Jujutsu Kaisen 0",
+        "poster": "https://v1.samehadaku.how/wp-content/uploads/2022/09/119045l.jpg",
+        "type": "Movie",
+        "score": "8.51",
+        "status": "Completed",
+        "animeId": "jujutsu-kaisen-0",
+        "href": "/samehadaku/anime/jujutsu-kaisen-0",
+        "samehadakuUrl": "https://v1.samehadaku.how/anime/jujutsu-kaisen-0/",
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/samehadaku/genres/action",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/action/"
+          },
+          {
+            "title": "Fantasy",
+            "genreId": "fantasy",
+            "href": "/samehadaku/genres/fantasy",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/fantasy/"
+          },
+          {
+            "title": "School",
+            "genreId": "school",
+            "href": "/samehadaku/genres/school",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/school/"
+          },
+          {
+            "title": "Shounen",
+            "genreId": "shounen",
+            "href": "/samehadaku/genres/shounen",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/shounen/"
+          }
+        ]
+      },
+      {
+        "title": "Jujutsu Kaisen",
+        "poster": "https://v1.samehadaku.how/wp-content/uploads/2020/10/109222.jpg",
+        "type": "TV",
+        "score": "7.87",
+        "status": "Completed",
+        "animeId": "jujutsu-kaisen",
+        "href": "/samehadaku/anime/jujutsu-kaisen",
+        "samehadakuUrl": "https://v1.samehadaku.how/anime/jujutsu-kaisen/",
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/samehadaku/genres/action",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/action/"
+          },
+          {
+            "title": "Demons",
+            "genreId": "demons",
+            "href": "/samehadaku/genres/demons",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/demons/"
+          },
+          {
+            "title": "Horror",
+            "genreId": "horror",
+            "href": "/samehadaku/genres/horror",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/horror/"
+          },
+          {
+            "title": "School",
+            "genreId": "school",
+            "href": "/samehadaku/genres/school",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/school/"
+          },
+          {
+            "title": "Shounen",
+            "genreId": "shounen",
+            "href": "/samehadaku/genres/shounen",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/shounen/"
+          },
+          {
+            "title": "Supernatural",
+            "genreId": "supernatural",
+            "href": "/samehadaku/genres/supernatural",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/supernatural/"
+          }
+        ]
+      }
+    ]
+  },
+  "pagination": {
+    "currentPage": 1,
+    "hasPrevPage": false,
+    "prevPage": null,
+    "hasNextPage": false,
+    "nextPage": null,
+    "totalPages": 1
+  }
+}

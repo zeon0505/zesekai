@@ -1,0 +1,353 @@
+{
+  "status": "success",
+  "creator": "Sanka Vollerei",
+  "statusCode": 200,
+  "statusMessage": "OK",
+  "message": "",
+  "ok": true,
+  "data": {
+    "title": "Shingeki no Kyojin",
+    "poster": "https://otakudesu.best/wp-content/uploads/2019/04/Shingeki-no-Kyojin-Sub-Indo.jpg",
+    "japanese": "進撃の巨人",
+    "score": "8.51",
+    "producers": "Production I.G, Dentsu, Mainichi Broadcasting System, Pony Canyon, Kodansha, Mad Box, Shingeki no Kyojin Team, Pony Canyon Enterprise, Other.",
+    "type": "BD",
+    "status": "Completed",
+    "episodes": 25,
+    "duration": "24 Menit",
+    "aired": "Apr 7, 2013",
+    "studios": "Wit",
+    "batch": {
+      "title": "Shingeki no Kyojin [BATCH] Subtitle Indonesia",
+      "batchId": "snk-batch-sub-indo",
+      "href": "/anime/batch/snk-batch-sub-indo",
+      "otakudesuUrl": "https://otakudesu.best/batch/snk-batch-sub-indo/"
+    },
+    "synopsis": {
+      "paragraphs": [
+        "(Attack on Titan) – Selama seratus tahun lebih manusia hidup dalam incaran para raksasa, kini manusia telah membuat sebuah dinding yang sangat besar setinggi melebihi besarnya para raksasa tersebut untuk bertahan hidup dari serangan para raksasa. Raksasa yang mengincar mereka disebut dengan Titan (Kyojin).",
+        "Entah darimana awal mula datangnya para Titan, namun untuk saat ini manusia dapat bernafas lega hidup didalam dinding. Hingga suatu hari, kehidupan damai mereka sirna ketika datang sesosok Titan yang sangat besar berkali-kali lipatnya dari titan biasa menghancurkan bagian dinding terluar mereka. Kejadian tersebut membuat para titan-titan lainnya memasuki wilayah dinding dan memakan semua manusia yang ada dihadapannya.",
+        "Bercerita tentang seorang anak bernama Eren Jaeger, ia merupakan seorang anak yang menyaksikan kejadian kelam tersebut, ibunya sendiri telah tatkala Seekor titan yang memakan ibunya tepat didepan matanya. Umat manusia saat itu hanya bisa pasrah dan mengungsi kebagian terdalam dari dinding.",
+        "Dirasuki amarah yang luar biasa, Eren berjanji membalaskan dendamnya dan akan membunuh semua titan di dunia ini hingga tak tersisa satupun mereka.",
+        "Bersamaan dengan 2 sahabatnya Mikasa dan Armin. Kini mereka bertiga masuk kedalam Pasukan Pengintai. Pasukan Pengintai adalah pasukan yang paling sering bertemu dan berperang langsung melawan para titan karena tugas mereka yakni melakukan observasi diluar dinding.",
+        "Disinilah cerita Eren dan teman-temannya dimulai menjadi Calon Pasukan Pengintai."
+      ],
+      "connections": [
+        {
+          "title": "Shingeki no Kyojin Season 2 (Attack on Titan S2)",
+          "animeId": "shingekyo-season-2-subtitle-indonesia",
+          "href": "/anime/anime/shingekyo-season-2-subtitle-indonesia",
+          "otakudesuUrl": "https://otakudesu.best/anime/shingekyo-season-2-subtitle-indonesia/"
+        },
+        {
+          "title": "Shingeki no Kyojin Season 3 (Attack on Titan S3)",
+          "animeId": "shingekyo-season-3-subtitle-indonesia",
+          "href": "/anime/anime/shingekyo-season-3-subtitle-indonesia",
+          "otakudesuUrl": "https://otakudesu.best/anime/shingekyo-season-3-subtitle-indonesia/"
+        },
+        {
+          "title": "Shingeki no Kyojin: The Final Season (Attack on Titan S4)",
+          "animeId": "shingekyo-season-4-sub-indo",
+          "href": "/anime/anime/shingekyo-season-4-sub-indo",
+          "otakudesuUrl": "https://otakudesu.best/anime/shingekyo-season-4-sub-indo/"
+        },
+        {
+          "title": "Shingeki no Kyojin: The Final Season Part 2 (Attack on Titan S4)",
+          "animeId": "snk-final-part2-sub-indo",
+          "href": "/anime/anime/snk-final-part2-sub-indo",
+          "otakudesuUrl": "https://otakudesu.best/anime/snk-final-part2-sub-indo/"
+        },
+        {
+          "title": "Shingeki no Kyojin: The Final Season Part 3 (Attack on Titan S4)",
+          "animeId": "snk-final-part3-sub-indo",
+          "href": "/anime/anime/snk-final-part3-sub-indo",
+          "otakudesuUrl": "https://otakudesu.best/anime/snk-final-part3-sub-indo/"
+        },
+        {
+          "title": "Shingeki no Kyojin OVA (Attack on Titan OVA)",
+          "animeId": "shingekyo-ova-subtitle-indonesia",
+          "href": "/anime/anime/shingekyo-ova-subtitle-indonesia",
+          "otakudesuUrl": "https://otakudesu.best/anime/shingekyo-ova-subtitle-indonesia/"
+        }
+      ]
+    },
+    "genreList": [
+      {
+        "title": "Action",
+        "genreId": "action",
+        "href": "/anime/genre/action",
+        "otakudesuUrl": "https://otakudesu.best/genres/action/"
+      },
+      {
+        "title": "Drama",
+        "genreId": "drama",
+        "href": "/anime/genre/drama",
+        "otakudesuUrl": "https://otakudesu.best/genres/drama/"
+      },
+      {
+        "title": "Fantasy",
+        "genreId": "fantasy",
+        "href": "/anime/genre/fantasy",
+        "otakudesuUrl": "https://otakudesu.best/genres/fantasy/"
+      },
+      {
+        "title": "Military",
+        "genreId": "military",
+        "href": "/anime/genre/military",
+        "otakudesuUrl": "https://otakudesu.best/genres/military/"
+      },
+      {
+        "title": "Shounen",
+        "genreId": "shounen",
+        "href": "/anime/genre/shounen",
+        "otakudesuUrl": "https://otakudesu.best/genres/shounen/"
+      },
+      {
+        "title": "Super Power",
+        "genreId": "super-power",
+        "href": "/anime/genre/super-power",
+        "otakudesuUrl": "https://otakudesu.best/genres/super-power/"
+      }
+    ],
+    "episodeList": [
+      {
+        "title": "Shingeki no Kyojin Episode 25 (End) Subtitle Indonesia",
+        "eps": 25,
+        "date": "17 April,2019",
+        "episodeId": "snk-episode-25-sub-indo",
+        "href": "/anime/episode/snk-episode-25-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/snk-episode-25-sub-indo/"
+      },
+      {
+        "title": "Shingeki no Kyojin Episode 24 Subtitle Indonesia",
+        "eps": 24,
+        "date": "17 April,2019",
+        "episodeId": "snk-episode-24-sub-indo",
+        "href": "/anime/episode/snk-episode-24-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/snk-episode-24-sub-indo/"
+      },
+      {
+        "title": "Shingeki no Kyojin Episode 23 Subtitle Indonesia",
+        "eps": 23,
+        "date": "17 April,2019",
+        "episodeId": "snk-episode-23-sub-indo",
+        "href": "/anime/episode/snk-episode-23-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/snk-episode-23-sub-indo/"
+      },
+      {
+        "title": "Shingeki no Kyojin Episode 22 Subtitle Indonesia",
+        "eps": 22,
+        "date": "17 April,2019",
+        "episodeId": "snk-episode-22-sub-indo",
+        "href": "/anime/episode/snk-episode-22-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/snk-episode-22-sub-indo/"
+      },
+      {
+        "title": "Shingeki no Kyojin Episode 21 Subtitle Indonesia",
+        "eps": 21,
+        "date": "17 April,2019",
+        "episodeId": "snk-episode-21-sub-indo",
+        "href": "/anime/episode/snk-episode-21-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/snk-episode-21-sub-indo/"
+      },
+      {
+        "title": "Shingeki no Kyojin Episode 20 Subtitle Indonesia",
+        "eps": 20,
+        "date": "17 April,2019",
+        "episodeId": "snk-episode-20-sub-indo",
+        "href": "/anime/episode/snk-episode-20-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/snk-episode-20-sub-indo/"
+      },
+      {
+        "title": "Shingeki no Kyojin Episode 19 Subtitle Indonesia",
+        "eps": 19,
+        "date": "17 April,2019",
+        "episodeId": "snk-episode-19-sub-indo",
+        "href": "/anime/episode/snk-episode-19-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/snk-episode-19-sub-indo/"
+      },
+      {
+        "title": "Shingeki no Kyojin Episode 18 Subtitle Indonesia",
+        "eps": 18,
+        "date": "17 April,2019",
+        "episodeId": "snk-episode-18-sub-indo",
+        "href": "/anime/episode/snk-episode-18-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/snk-episode-18-sub-indo/"
+      },
+      {
+        "title": "Shingeki no Kyojin Episode 17 Subtitle Indonesia",
+        "eps": 17,
+        "date": "17 April,2019",
+        "episodeId": "snk-episode-17-sub-indo",
+        "href": "/anime/episode/snk-episode-17-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/snk-episode-17-sub-indo/"
+      },
+      {
+        "title": "Shingeki no Kyojin Episode 16 Subtitle Indonesia",
+        "eps": 16,
+        "date": "17 April,2019",
+        "episodeId": "snk-episode-16-sub-indo",
+        "href": "/anime/episode/snk-episode-16-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/snk-episode-16-sub-indo/"
+      },
+      {
+        "title": "Shingeki no Kyojin Episode 15 Subtitle Indonesia",
+        "eps": 15,
+        "date": "17 April,2019",
+        "episodeId": "snk-episode-15-sub-indo",
+        "href": "/anime/episode/snk-episode-15-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/snk-episode-15-sub-indo/"
+      },
+      {
+        "title": "Shingeki no Kyojin Episode 14 Subtitle Indonesia",
+        "eps": 14,
+        "date": "17 April,2019",
+        "episodeId": "snk-episode-14-sub-indo",
+        "href": "/anime/episode/snk-episode-14-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/snk-episode-14-sub-indo/"
+      },
+      {
+        "title": "Shingeki no Kyojin Episode 13 Subtitle Indonesia",
+        "eps": 13,
+        "date": "17 April,2019",
+        "episodeId": "snk-episode-13-sub-indo",
+        "href": "/anime/episode/snk-episode-13-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/snk-episode-13-sub-indo/"
+      },
+      {
+        "title": "Shingeki no Kyojin Episode 12 Subtitle Indonesia",
+        "eps": 12,
+        "date": "17 April,2019",
+        "episodeId": "snk-episode-12-sub-indo",
+        "href": "/anime/episode/snk-episode-12-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/snk-episode-12-sub-indo/"
+      },
+      {
+        "title": "Shingeki no Kyojin Episode 11 Subtitle Indonesia",
+        "eps": 11,
+        "date": "17 April,2019",
+        "episodeId": "snk-episode-11-sub-indo",
+        "href": "/anime/episode/snk-episode-11-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/snk-episode-11-sub-indo/"
+      },
+      {
+        "title": "Shingeki no Kyojin Episode 10 Subtitle Indonesia",
+        "eps": 10,
+        "date": "17 April,2019",
+        "episodeId": "snk-episode-10-sub-indo",
+        "href": "/anime/episode/snk-episode-10-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/snk-episode-10-sub-indo/"
+      },
+      {
+        "title": "Shingeki no Kyojin Episode 9 Subtitle Indonesia",
+        "eps": 9,
+        "date": "17 April,2019",
+        "episodeId": "snk-episode-9-sub-indo",
+        "href": "/anime/episode/snk-episode-9-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/snk-episode-9-sub-indo/"
+      },
+      {
+        "title": "Shingeki no Kyojin Episode 8 Subtitle Indonesia",
+        "eps": 8,
+        "date": "17 April,2019",
+        "episodeId": "snk-episode-8-sub-indo",
+        "href": "/anime/episode/snk-episode-8-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/snk-episode-8-sub-indo/"
+      },
+      {
+        "title": "Shingeki no Kyojin Episode 7 Subtitle Indonesia",
+        "eps": 7,
+        "date": "17 April,2019",
+        "episodeId": "snk-episode-7-sub-indo",
+        "href": "/anime/episode/snk-episode-7-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/snk-episode-7-sub-indo/"
+      },
+      {
+        "title": "Shingeki no Kyojin Episode 6 Subtitle Indonesia",
+        "eps": 6,
+        "date": "17 April,2019",
+        "episodeId": "snk-episode-6-sub-indo",
+        "href": "/anime/episode/snk-episode-6-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/snk-episode-6-sub-indo/"
+      },
+      {
+        "title": "Shingeki no Kyojin Episode 5 Subtitle Indonesia",
+        "eps": 5,
+        "date": "17 April,2019",
+        "episodeId": "snk-episode-5-sub-indo",
+        "href": "/anime/episode/snk-episode-5-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/snk-episode-5-sub-indo/"
+      },
+      {
+        "title": "Shingeki no Kyojin Episode 4 Subtitle Indonesia",
+        "eps": 4,
+        "date": "17 April,2019",
+        "episodeId": "snk-episode-4-sub-indo",
+        "href": "/anime/episode/snk-episode-4-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/snk-episode-4-sub-indo/"
+      },
+      {
+        "title": "Shingeki no Kyojin Episode 3 Subtitle Indonesia",
+        "eps": 3,
+        "date": "17 April,2019",
+        "episodeId": "snk-episode-3-sub-indo",
+        "href": "/anime/episode/snk-episode-3-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/snk-episode-3-sub-indo/"
+      },
+      {
+        "title": "Shingeki no Kyojin Episode 2 Subtitle Indonesia",
+        "eps": 2,
+        "date": "17 April,2019",
+        "episodeId": "snk-episode-2-sub-indo",
+        "href": "/anime/episode/snk-episode-2-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/snk-episode-2-sub-indo/"
+      },
+      {
+        "title": "Shingeki no Kyojin Episode 1 Subtitle Indonesia",
+        "eps": 1,
+        "date": "17 April,2019",
+        "episodeId": "snk-episode-1-sub-indo",
+        "href": "/anime/episode/snk-episode-1-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/episode/snk-episode-1-sub-indo/"
+      }
+    ],
+    "recommendedAnimeList": [
+      {
+        "title": "Bukiyou na Senpai",
+        "poster": "https://otakudesu.best/wp-content/uploads/2026/01/Bukiyou-na-Senpai-Sub-Indo.jpg",
+        "animeId": "bukiyou-senpai-sub-indo",
+        "href": "/anime/anime/bukiyou-senpai-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/anime/bukiyou-senpai-sub-indo/"
+      },
+      {
+        "title": "Sozai Saishuka no Isekai Ryokouki",
+        "poster": "https://otakudesu.best/wp-content/uploads/2025/12/Sozai-Saishuka-no-Isekai-Ryokouki-Sub-Indo.jpg",
+        "animeId": "sozai-isekai-ryokouki-sub-indo",
+        "href": "/anime/anime/sozai-isekai-ryokouki-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/anime/sozai-isekai-ryokouki-sub-indo/"
+      },
+      {
+        "title": "Boku no Hero Academia Season 8",
+        "poster": "https://otakudesu.best/wp-content/uploads/2025/12/Boku-no-Hero-Academia-Season-8-Sub-Indo.jpg",
+        "animeId": "bnha-season-8-sub-indo",
+        "href": "/anime/anime/bnha-season-8-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/anime/bnha-season-8-sub-indo/"
+      },
+      {
+        "title": "Mushoku no Eiyuu",
+        "poster": "https://otakudesu.best/wp-content/uploads/2025/12/Mushoku-no-Eiyuu-Sub-Indo.jpg",
+        "animeId": "mushoku-eiyuu-sub-indo",
+        "href": "/anime/anime/mushoku-eiyuu-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/anime/mushoku-eiyuu-sub-indo/"
+      },
+      {
+        "title": "Jigoku Sensei Nube",
+        "poster": "https://otakudesu.best/wp-content/uploads/2025/12/Jigoku-Sensei-Nube-Sub-Indo.jpg",
+        "animeId": "jigoku-sensei-2025-sub-indo",
+        "href": "/anime/anime/jigoku-sensei-2025-sub-indo",
+        "otakudesuUrl": "https://otakudesu.best/anime/jigoku-sensei-2025-sub-indo/"
+      }
+    ]
+  },
+  "pagination": null
+}

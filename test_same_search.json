@@ -1,0 +1,263 @@
+{
+  "status": "success",
+  "creator": "Sanka Vollerei",
+  "message": "",
+  "data": {
+    "animeList": [
+      {
+        "title": "Kimetsu no Yaiba – The Movie: Infinity Castle – Part 1: Akaza Returns",
+        "poster": "https://v1.samehadaku.how/wp-content/uploads/2026/01/148216.jpg",
+        "type": "Movie",
+        "score": "8.7",
+        "status": "Completed",
+        "animeId": "kimetsu-no-yaiba-the-movie-infinity-castle-part-1-akaza-returns",
+        "href": "/samehadaku/anime/kimetsu-no-yaiba-the-movie-infinity-castle-part-1-akaza-returns",
+        "samehadakuUrl": "https://v1.samehadaku.how/anime/kimetsu-no-yaiba-the-movie-infinity-castle-part-1-akaza-returns/",
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/samehadaku/genres/action",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/action/"
+          },
+          {
+            "title": "Historical",
+            "genreId": "historical",
+            "href": "/samehadaku/genres/historical",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/historical/"
+          },
+          {
+            "title": "Supernatural",
+            "genreId": "supernatural",
+            "href": "/samehadaku/genres/supernatural",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/supernatural/"
+          }
+        ]
+      },
+      {
+        "title": "Kimetsu no Yaiba Season 4 Hashira Geiko-hen",
+        "poster": "https://v1.samehadaku.how/wp-content/uploads/2024/05/Kimetsu-no-Yaiba-Season-4-Hashira-Geiko-hen.jpg",
+        "type": "TV",
+        "score": "8.07",
+        "status": "Completed",
+        "animeId": "kimetsu-no-yaiba-season-4-hashira-geiko-hen",
+        "href": "/samehadaku/anime/kimetsu-no-yaiba-season-4-hashira-geiko-hen",
+        "samehadakuUrl": "https://v1.samehadaku.how/anime/kimetsu-no-yaiba-season-4-hashira-geiko-hen/",
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/samehadaku/genres/action",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/action/"
+          },
+          {
+            "title": "Fantasy",
+            "genreId": "fantasy",
+            "href": "/samehadaku/genres/fantasy",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/fantasy/"
+          },
+          {
+            "title": "Historical",
+            "genreId": "historical",
+            "href": "/samehadaku/genres/historical",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/historical/"
+          },
+          {
+            "title": "Shounen",
+            "genreId": "shounen",
+            "href": "/samehadaku/genres/shounen",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/shounen/"
+          }
+        ]
+      },
+      {
+        "title": "Kimetsu no Yaiba Season 3 Katanakaji no Sato-hen",
+        "poster": "https://v1.samehadaku.how/wp-content/uploads/2023/04/134058l.jpg",
+        "type": "TV",
+        "score": "8.55",
+        "status": "Completed",
+        "animeId": "kimetsu-no-yaiba-katanakaji-no-sato-hen",
+        "href": "/samehadaku/anime/kimetsu-no-yaiba-katanakaji-no-sato-hen",
+        "samehadakuUrl": "https://v1.samehadaku.how/anime/kimetsu-no-yaiba-katanakaji-no-sato-hen/",
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/samehadaku/genres/action",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/action/"
+          },
+          {
+            "title": "Fantasy",
+            "genreId": "fantasy",
+            "href": "/samehadaku/genres/fantasy",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/fantasy/"
+          },
+          {
+            "title": "Historical",
+            "genreId": "historical",
+            "href": "/samehadaku/genres/historical",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/historical/"
+          },
+          {
+            "title": "Shounen",
+            "genreId": "shounen",
+            "href": "/samehadaku/genres/shounen",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/shounen/"
+          }
+        ]
+      },
+      {
+        "title": "Kimetsu no Yaiba Season 2",
+        "poster": "https://v1.samehadaku.how/wp-content/uploads/2021/12/117641.jpg",
+        "type": "TV",
+        "score": "8.91",
+        "status": "Completed",
+        "animeId": "kimetsu-no-yaiba-s2",
+        "href": "/samehadaku/anime/kimetsu-no-yaiba-s2",
+        "samehadakuUrl": "https://v1.samehadaku.how/anime/kimetsu-no-yaiba-s2/",
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/samehadaku/genres/action",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/action/"
+          },
+          {
+            "title": "Demons",
+            "genreId": "demons",
+            "href": "/samehadaku/genres/demons",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/demons/"
+          },
+          {
+            "title": "Historical",
+            "genreId": "historical",
+            "href": "/samehadaku/genres/historical",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/historical/"
+          },
+          {
+            "title": "Shounen",
+            "genreId": "shounen",
+            "href": "/samehadaku/genres/shounen",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/shounen/"
+          },
+          {
+            "title": "Supernatural",
+            "genreId": "supernatural",
+            "href": "/samehadaku/genres/supernatural",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/supernatural/"
+          }
+        ]
+      },
+      {
+        "title": "Kimetsu no Yaiba",
+        "poster": "https://v1.samehadaku.how/wp-content/uploads/2021/12/Kimetsu-no-Yaiba-Season-1.jpg",
+        "type": "TV",
+        "score": "8.57",
+        "status": "Completed",
+        "animeId": "kimetsu-no-yaiba",
+        "href": "/samehadaku/anime/kimetsu-no-yaiba",
+        "samehadakuUrl": "https://v1.samehadaku.how/anime/kimetsu-no-yaiba/",
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/samehadaku/genres/action",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/action/"
+          },
+          {
+            "title": "Supernatural",
+            "genreId": "supernatural",
+            "href": "/samehadaku/genres/supernatural",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/supernatural/"
+          }
+        ]
+      },
+      {
+        "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
+        "poster": "https://v1.samehadaku.how/wp-content/uploads/2021/10/118763l.jpg",
+        "type": "TV",
+        "score": "8.38",
+        "status": "Completed",
+        "animeId": "kimetsu-no-yaiba-mugen-ressha-hen-tv-series",
+        "href": "/samehadaku/anime/kimetsu-no-yaiba-mugen-ressha-hen-tv-series",
+        "samehadakuUrl": "https://v1.samehadaku.how/anime/kimetsu-no-yaiba-mugen-ressha-hen-tv-series/",
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/samehadaku/genres/action",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/action/"
+          },
+          {
+            "title": "Fantasy",
+            "genreId": "fantasy",
+            "href": "/samehadaku/genres/fantasy",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/fantasy/"
+          },
+          {
+            "title": "Historical",
+            "genreId": "historical",
+            "href": "/samehadaku/genres/historical",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/historical/"
+          },
+          {
+            "title": "Shounen",
+            "genreId": "shounen",
+            "href": "/samehadaku/genres/shounen",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/shounen/"
+          }
+        ]
+      },
+      {
+        "title": "Kimetsu no Yaiba Movie – Mugen Train",
+        "poster": "https://v1.samehadaku.how/wp-content/uploads/2021/04/106947.jpg",
+        "type": "Movie",
+        "score": "8.71",
+        "status": "Completed",
+        "animeId": "kimetsu-no-yaiba-movie-mugen-train",
+        "href": "/samehadaku/anime/kimetsu-no-yaiba-movie-mugen-train",
+        "samehadakuUrl": "https://v1.samehadaku.how/anime/kimetsu-no-yaiba-movie-mugen-train/",
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/samehadaku/genres/action",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/action/"
+          },
+          {
+            "title": "Demons",
+            "genreId": "demons",
+            "href": "/samehadaku/genres/demons",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/demons/"
+          },
+          {
+            "title": "Historical",
+            "genreId": "historical",
+            "href": "/samehadaku/genres/historical",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/historical/"
+          },
+          {
+            "title": "Shounen",
+            "genreId": "shounen",
+            "href": "/samehadaku/genres/shounen",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/shounen/"
+          },
+          {
+            "title": "Supernatural",
+            "genreId": "supernatural",
+            "href": "/samehadaku/genres/supernatural",
+            "samehadakuUrl": "https://v1.samehadaku.how/genre/supernatural/"
+          }
+        ]
+      }
+    ]
+  },
+  "pagination": {
+    "currentPage": 1,
+    "hasPrevPage": false,
+    "prevPage": null,
+    "hasNextPage": false,
+    "nextPage": null,
+    "totalPages": 1
+  }
+}

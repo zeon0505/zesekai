@@ -1,0 +1,135 @@
+{
+  "status": "success",
+  "creator": "Sanka Vollerei",
+  "source": "Kusonime",
+  "anime_list": [
+    {
+      "title": "Jujutsu Kaisen Movie: Shibuya Jihen Tokubetsu Henshuu-ban x Shimetsu Kaijuu Senkou Jouei HDCAM Subtitle Indonesia",
+      "slug": "jjk-movie-execution-subtitle-indonesia-1",
+      "poster": "https://kusonime.com/wp-content/uploads/2025/11/Jujutsu-Kaisen-Execution.webp",
+      "genres": [
+        {
+          "name": "Action",
+          "slug": "action"
+        },
+        {
+          "name": "Horror",
+          "slug": "horror"
+        },
+        {
+          "name": "Psychological",
+          "slug": "psychological"
+        },
+        {
+          "name": "Shounen",
+          "slug": "shounen"
+        },
+        {
+          "name": "Supernatural",
+          "slug": "supernatural"
+        }
+      ],
+      "released": "10:41 am"
+    },
+    {
+      "title": "Jujutsu Kaisen Season 2 Batch BD Subtitle Indonesia",
+      "slug": "jjk-s2-subtitle-indonesia-11",
+      "poster": "https://kusonime.com/wp-content/uploads/2023/07/Jujutsu-Kaisen-Season-2.webp",
+      "genres": [
+        {
+          "name": "Action",
+          "slug": "action"
+        },
+        {
+          "name": "Demons",
+          "slug": "demons"
+        },
+        {
+          "name": "School",
+          "slug": "school"
+        },
+        {
+          "name": "Shounen",
+          "slug": "shounen"
+        },
+        {
+          "name": "Supernatural",
+          "slug": "supernatural"
+        }
+      ],
+      "released": "2:00 pm"
+    },
+    {
+      "title": "Jujutsu Kaisen 0 Movie BD Subtitle Indonesia",
+      "slug": "jujutsu-kaisen-0-subtitle-indonesia-12",
+      "poster": "https://kusonime.com/wp-content/uploads/2022/05/Jujutsu-Kaisen-0-Movie.jpg",
+      "genres": [
+        {
+          "name": "Action",
+          "slug": "action"
+        },
+        {
+          "name": "Fantasy",
+          "slug": "fantasy"
+        },
+        {
+          "name": "School",
+          "slug": "school"
+        }
+      ],
+      "released": "7:15 am"
+    },
+    {
+      "title": "Jujutsu Kaisen BD Batch Subtitle Indonesia",
+      "slug": "jjk-s1-subtitle-indonesia-11",
+      "poster": "https://kusonime.com/wp-content/uploads/2021/05/Jujutsu-Kaisen.jpg",
+      "genres": [
+        {
+          "name": "Action",
+          "slug": "action"
+        },
+        {
+          "name": "Demons",
+          "slug": "demons"
+        },
+        {
+          "name": "School",
+          "slug": "school"
+        },
+        {
+          "name": "Shounen",
+          "slug": "shounen"
+        },
+        {
+          "name": "Supernatural",
+          "slug": "supernatural"
+        }
+      ],
+      "released": "6:39 am"
+    },
+    {
+      "title": "Chainsaw Man BD Batch Subtitle Indonesia",
+      "slug": "chainsaw-man-batch-subtitle-indonesia",
+      "poster": "https://kusonime.com/wp-content/uploads/2022/10/Chainsaw-Man.jpg",
+      "genres": [
+        {
+          "name": "Action",
+          "slug": "action"
+        },
+        {
+          "name": "Shounen",
+          "slug": "shounen"
+        },
+        {
+          "name": "Supernatural",
+          "slug": "supernatural"
+        },
+        {
+          "name": "Thriller",
+          "slug": "thriller"
+        }
+      ],
+      "released": "5:30 am"
+    }
+  ]
+}

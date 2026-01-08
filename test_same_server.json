@@ -1,0 +1,6 @@
+{
+  "status": "success",
+  "creator": "Sanka Vollerei",
+  "message": "Error fetching data from Samehadaku",
+  "error": "Request failed with status code 404"
+}
