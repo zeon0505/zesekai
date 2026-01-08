@@ -115,7 +115,7 @@
                         @if(\App\Models\Setting::get('site_logo'))
                             <img src="{{ \Illuminate\Support\Facades\Storage::url(\App\Models\Setting::get('site_logo')) }}" class="w-8 h-8 rounded-lg object-cover bg-white/5" alt="Logo">
                         @else
-                            <div class="w-8 h-8 bg-gradient-to-br from-[#8b0000] to-[#cc0000] rounded-lg flex items-center justify-center font-black text-white italic group-hover:rotate-12 transition-transform">A</div>
+                            <div class="w-8 h-8 bg-gradient-to-br from-[#8b0000] to-[#cc0000] rounded-lg flex items-center justify-center font-black text-white italic group-hover:rotate-12 transition-transform">Z</div>
                         @endif
                         <span class="text-xl font-black tracking-tighter uppercase text-white">ZESEKAI</span>
                     </a>

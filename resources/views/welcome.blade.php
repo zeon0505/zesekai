@@ -233,9 +233,13 @@
 
     <footer class="py-24 bg-black border-t border-white/[0.02]">
         <div class="max-w-7xl mx-auto px-6 text-center">
-            <div class="flex justify-center items-center gap-2 mb-10">
-                <div class="w-6 h-6 bg-red-600 flex items-center justify-center font-black italic rounded text-[10px]">A</div>
-                <span class="text-lg font-black tracking-tighter uppercase">Zesekai</span>
+            <div class="flex justify-center items-center gap-3 mb-10">
+                @if(\App\Models\Setting::get('site_logo'))
+                    <img src="{{ \Illuminate\Support\Facades\Storage::url(\App\Models\Setting::get('site_logo')) }}" class="w-8 h-8 rounded-lg object-cover bg-white/5" alt="Logo">
+                @else
+                    <div class="w-8 h-8 bg-gradient-to-br from-[#8b0000] to-[#cc0000] flex items-center justify-center font-black italic rounded text-[10px] text-white">Z</div>
+                @endif
+                <span class="text-xl font-black tracking-tighter uppercase text-white">ZESE<span class="text-red-600">KAI</span></span>
             </div>
             <p class="text-gray-600 max-w-sm mx-auto mb-10 text-[11px] leading-relaxed font-medium">Platfom streaming anime premium. Dibuat dengan cinta untuk para penggemar setia di seluruh dunia.</p>
             <div class="flex justify-center gap-10 text-gray-600 text-[9px] mb-16 uppercase tracking-[0.4em] font-black">
