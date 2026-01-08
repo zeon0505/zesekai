@@ -76,7 +76,6 @@
             <a href="{{ route('register') }}" class="block text-[10px] font-black text-red-600 uppercase tracking-widest">Sign Up</a>
         @endauth
     </div>
-    </div>
 
     <!-- Livewire Logout Logic is handled by the component -->
     

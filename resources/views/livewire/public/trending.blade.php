@@ -1,5 +1,4 @@
 <div>
-    <livewire:layout.navigation />
     <!-- TRENDING SECTION -->
     <section class="py-32 bg-black min-h-screen">
         <div class="max-w-7xl mx-auto px-6">
