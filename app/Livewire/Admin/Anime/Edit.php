@@ -188,20 +188,33 @@ class Edit extends Component
                         }
                         break;
 
+
                     case 'otakudesu':
+                        \Log::info("GetAnimeInfoServer (Edit): Otakudesu - urlId={$urlId}");
+                        
                         // Try standard endpoint
-                        $res = $this->apiRequest("https://www.sankavollerei.com/anime/anime/" . $urlId);
+                        $url1 = "https://www.sankavollerei.com/anime/anime/" . $urlId;
+                        \Log::info("Trying URL: {$url1}");
+                        $res = $this->apiRequest($url1);
                         
                         // If not successful or API says not OK or no data
                         if (!$res || !$res->successful() || ($res->json()['ok'] ?? true) === false || empty($res->json()['data'])) {
-                            $res = $this->apiRequest("https://www.sankavollerei.com/anime/detail/" . $urlId);
+                            $url2 = "https://www.sankavollerei.com/anime/detail/" . $urlId;
+                            \Log::info("First attempt failed, trying fallback URL: {$url2}");
+                            $res = $this->apiRequest($url2);
                         }
 
                         if ($res && $res->successful()) {
                             $json = $res->json();
-                            $d = $json['data'] ?? $json; // try 'data' key first, then root
+                            \Log::info("Otakudesu API Success (Edit) - Response keys: " . json_encode(array_keys($json)));
                             
-                            if (!$d || (isset($d['title']) && empty($d['title']))) return null;
+                            $d = $json['data'] ?? $json; // try 'data' key first, then root
+                            \Log::info("Data keys: " . json_encode(array_keys($d ?? [])));
+                            
+                            if (!$d || (isset($d['title']) && empty($d['title']))) {
+                                \Log::error("Otakudesu (Edit): Empty data or no title");
+                                return null;
+                            }
 
                             // Handle various synopsis structures
                             $syn = '';
@@ -217,7 +230,7 @@ class Edit extends Component
                                 }
                             }
 
-                            return [
+                            $result = [
                                 'title' => $d['title'] ?? ($d['judul'] ?? ''),
                                 'synopsis' => $syn ?: ($d['deskripsi'] ?? ''),
                                 'poster' => $d['poster'] ?? ($d['cover'] ?? ''),
@@ -225,8 +238,15 @@ class Edit extends Component
                                 'status' => $d['status'] ?? 'Ongoing',
                                 'aired' => $d['aired'] ?? ($d['rilis'] ?? null),
                             ];
+                            
+                            \Log::info("Otakudesu (Edit): Returning data - " . json_encode($result));
+                            return $result;
+                        } else {
+                            $status = $res ? $res->status() : 'NO_RESPONSE';
+                            \Log::error("Otakudesu API (Edit) Failed: HTTP {$status}");
                         }
                         break;
+
 
                     case 'samehadaku':
                         $res = $this->apiRequest("https://www.sankavollerei.com/anime/samehadaku/anime/" . $urlId);
