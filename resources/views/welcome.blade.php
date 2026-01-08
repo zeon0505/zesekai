@@ -7,6 +7,25 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     @livewireStyles
+
+    @php 
+        $adsense_client = \App\Models\Setting::get('adsense_client');
+        $popunder_code = \App\Models\Setting::get('popunder_code');
+        $is_premium = auth()->user()?->is_premium;
+    @endphp
+
+    @if(!$is_premium)
+        @if($adsense_client)
+            <!-- Google AdSense Auto Ads -->
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ $adsense_client }}" crossorigin="anonymous"></script>
+        @endif
+        
+        @if($popunder_code)
+            <!-- Pop-under Ads (Adsterra/Others) -->
+            {!! $popunder_code !!}
+        @endif
+    @endif
+
     <style>
         :root {
             --primary-red: #cc0000;
@@ -108,6 +127,15 @@
 <body class="bg-black text-white selection:bg-red-600">
 
     <livewire:layout.navigation />
+
+    @if(!$is_premium && $headerAds = \App\Models\Setting::get('adsense_header_code'))
+        <!-- TOP AD BANNER -->
+        <div class="w-full flex justify-center py-6 bg-transparent relative z-50">
+            <div class="max-w-7xl mx-auto px-6 overflow-hidden flex justify-center">
+                {!! $headerAds !!}
+            </div>
+        </div>
+    @endif
 
     <!-- HERO SECTION -->
     <section id="home" class="relative min-h-screen flex items-center overflow-hidden">
