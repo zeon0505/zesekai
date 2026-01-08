@@ -26,6 +26,7 @@
                 background: linear-gradient(135deg, #8b0000, #cc0000);
                 transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
             }
+            [x-cloak] { display: none !important; }
         </style>
     </head>
     <body class="antialiased font-sans bg-black text-white">

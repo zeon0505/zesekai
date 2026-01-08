@@ -122,6 +122,8 @@
         ::-webkit-scrollbar-track { background: #000; }
         ::-webkit-scrollbar-thumb { background: #111; border-radius: 10px; }
         ::-webkit-scrollbar-thumb:hover { background: #cc0000; }
+
+        [x-cloak] { display: none !important; }
     </style>
 </head>
 <body class="bg-black text-white selection:bg-red-600">
@@ -254,6 +256,43 @@
         </div>
     </section>
     @endif
+
+    <!-- RECENTLY WATCHED (HISTORY) -->
+    <section x-data="{ 
+        history: [],
+        init() {
+            this.history = JSON.parse(localStorage.getItem('zesekai_history') || '[]');
+        }
+    }" x-show="history.length > 0" class="py-12 bg-black border-b border-white/[0.02]" x-cloak>
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex items-center gap-4 mb-10">
+                 <div class="w-1.5 h-8 bg-red-600 rounded-full shadow-[0_0_15px_rgba(220,38,38,0.5)]"></div>
+                 <h2 class="text-xl md:text-2xl font-black tracking-tighter uppercase text-white">Lanjutkan <span class="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-800">Menonton</span></h2>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">
+                <template x-for="item in history" :key="item.anime_slug">
+                    <div class="group relative">
+                        <a :href="'/anime/' + item.anime_slug" class="block relative aspect-[16/9] rounded-2xl overflow-hidden mb-3 border border-white/5 group-hover:border-red-600/50 transition-all duration-500 shadow-2xl">
+                             <img :src="item.anime_poster" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                             <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
+                             <div class="absolute bottom-3 left-3 flex items-center gap-2">
+                                 <div class="w-8 h-8 rounded-full bg-red-600 flex items-center justify-center shadow-lg group-hover:scale-110 transition">
+                                    <i class="bi bi-play-fill text-white text-sm"></i>
+                                 </div>
+                                 <div class="flex flex-col">
+                                     <span class="text-[7px] font-black text-gray-400 uppercase tracking-widest leading-none mb-1">Episode</span>
+                                     <span class="text-white text-[10px] font-black uppercase leading-none" x-text="item.ep_number"></span>
+                                 </div>
+                             </div>
+                        </a>
+                        <h3 class="text-[10px] font-black uppercase tracking-tight text-white line-clamp-1 group-hover:text-red-500 transition mb-1" x-text="item.anime_title"></h3>
+                        <p class="text-[8px] text-gray-600 font-bold uppercase tracking-[0.2em]" x-text="item.ep_title ? item.ep_title : 'Nonton Sekarang'"></p>
+                    </div>
+                </template>
+            </div>
+        </div>
+    </section>
 
     <!-- TRENDING PREVIEW SECTION -->
     <section id="featured" class="py-24 bg-black border-y border-white/[0.02]">

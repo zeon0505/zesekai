@@ -19,11 +19,11 @@
             <div class="absolute top-0 right-0 w-24 h-24 bg-red-600/5 blur-[40px] pointer-events-none"></div>
             <div class="relative z-10">
                 <div class="flex items-center justify-between mb-4">
-                    <i class="bi bi-clock-history text-3xl text-gray-500"></i>
-                    <span class="text-4xl font-black text-white">0</span>
+                    <i class="bi bi-clock-history text-3xl text-red-500"></i>
+                    <span class="text-4xl font-black text-white">{{ \App\Models\WatchLog::where('user_id', auth()->id())->count() }}</span>
                 </div>
                 <h3 class="text-sm font-black uppercase tracking-widest text-gray-500 mb-1">Watch History</h3>
-                <p class="text-xs text-gray-600 font-bold uppercase tracking-wider">Coming Soon</p>
+                <p class="text-xs text-gray-400 font-bold uppercase tracking-wider">Episodes Watched</p>
             </div>
         </div>
 
@@ -87,19 +87,41 @@
         </div>
     </div>
 
-    <!-- Continue Watching (Placeholder) -->
+    <!-- Continue Watching -->
     <div>
         <div class="flex justify-between items-center mb-6">
             <h2 class="text-xl font-black uppercase tracking-tighter text-white">Continue Watching</h2>
-            <span class="text-[10px] text-gray-600 uppercase tracking-widest font-bold">Coming Soon</span>
+            <a href="#" class="text-[10px] text-gray-500 hover:text-red-500 transition uppercase tracking-widest font-black">History Lengkap →</a>
         </div>
-        <div class="bg-[#0a0a0a] rounded-2xl border border-white/5 p-12 text-center">
-            <div class="inline-flex items-center justify-center w-20 h-20 rounded-full bg-white/5 border border-white/10 mb-6">
-                <i class="bi bi-play-circle text-4xl text-gray-600"></i>
+
+        @if($recentHistory->count() > 0)
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                @foreach($recentHistory as $log)
+                    <div class="group relative">
+                        <a href="{{ route('anime.detail', $log->episode->anime->slug) }}" class="block relative aspect-[16/9] rounded-2xl overflow-hidden mb-3 border border-white/5 hover:border-red-600/50 transition-all duration-500">
+                            <img src="{{ $log->episode->thumbnail_image ?: $log->episode->anime->poster_image }}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+                            <div class="absolute bottom-3 left-3 flex items-center gap-2">
+                                <div class="w-8 h-8 rounded-full bg-red-600 flex items-center justify-center shadow-lg group-hover:scale-110 transition">
+                                    <i class="bi bi-play-fill text-white"></i>
+                                </div>
+                                <span class="bg-black/50 backdrop-blur-md text-white text-[8px] font-black uppercase px-2 py-1 rounded border border-white/10 tracking-widest">Ep {{ $log->episode->episode_number }}</span>
+                            </div>
+                        </a>
+                        <h3 class="text-xs font-black uppercase tracking-tight text-white line-clamp-1 group-hover:text-red-500 transition">{{ $log->episode->anime->title }}</h3>
+                        <p class="text-[8px] text-gray-600 font-bold uppercase tracking-widest mt-1">{{ $log->episode->title ?: 'Episode ' . $log->episode->episode_number }}</p>
+                    </div>
+                @endforeach
             </div>
-            <h3 class="text-xl font-black uppercase tracking-tight text-gray-400 mb-2">No Recent Activity</h3>
-            <p class="text-[10px] uppercase tracking-widest text-gray-600 mb-8">Start watching anime to see your history here</p>
-            <a href="{{ route('catalog') }}" class="btn-gradient px-8 py-3 rounded-xl font-bold text-[10px] uppercase tracking-widest text-white inline-block">Browse Anime</a>
-        </div>
+        @else
+            <div class="bg-[#0a0a0a] rounded-2xl border border-white/5 p-12 text-center">
+                <div class="inline-flex items-center justify-center w-20 h-20 rounded-full bg-white/5 border border-white/10 mb-6">
+                    <i class="bi bi-play-circle text-4xl text-gray-600"></i>
+                </div>
+                <h3 class="text-xl font-black uppercase tracking-tight text-gray-400 mb-2">No Recent Activity</h3>
+                <p class="text-[10px] uppercase tracking-widest text-gray-600 mb-8">Start watching anime to see your history here</p>
+                <a href="{{ route('catalog') }}" class="btn-gradient px-8 py-3 rounded-xl font-bold text-[10px] uppercase tracking-widest text-white inline-block">Browse Anime</a>
+            </div>
+        @endif
     </div>
 </div>

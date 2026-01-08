@@ -11,87 +11,13 @@
 @endphp
 
 <div class="min-h-screen bg-black text-white" 
-     x-data="{ 
-        currentUrl: '', 
-        currentEpisodeTitle: '', 
-        currentNumber: 1,
-        isEmbed: true,
-        epList: {{ $episodesList->toJson() }},
-        
-        async playEp(ep) {
-            this.isLoading = true;
-            try {
-                const result = await this.$wire.playEpisode(ep.id);
-                if (!result) { this.isLoading = false; return; }
-                
-                let url = result.url;
-                this.currentEpisodeTitle = result.title;
-                this.currentNumber = result.number;
-                
-                // TRANSFORASI LINK (Anti-Download & Fit)
-                this.isEmbed = true; // Default safety
-                
-                if (url.includes('pixeldrain.com')) {
-                    const id = url.split('/').pop().split('?')[0];
-                    url = 'https://pixeldrain.com/e/' + id;
-                } else if (url.includes('krakenfiles.com/view/')) {
-                    url = url.replace('/view/', '/embed/');
-                } else {
-                    const directExts = ['.mp4', '.m3u8', '.webm'];
-                    const isDirect = directExts.some(ext => url.toLowerCase().split('?')[0].endsWith(ext));
-                    if (isDirect) {
-                        this.isEmbed = false;
-                        this.initPlyr(url);
-                    }
-                }
-
-                this.currentUrl = url;
-                window.scrollTo({top: 0, behavior: 'smooth'});
-            } catch (e) {
-                console.error(e);
-            } finally {
-                this.isLoading = false;
-            }
-        },
-
-        initPlyr(url) {
-            if (window.player) { window.player.destroy(); window.player = null; }
-            
-            setTimeout(() => {
-                const video = document.getElementById('player');
-                if(!video) return;
-
-                if (url.includes('.m3u8')) {
-                    if (typeof Hls !== 'undefined' && Hls.isSupported()) {
-                        const hls = new Hls();
-                        hls.loadSource(url);
-                        hls.attachMedia(video);
-                    }
-                } else {
-                    video.src = url;
-                }
-
-                window.player = new Plyr(video, {
-                    controls: ['play-large', 'play', 'progress', 'current-time', 'duration', 'mute', 'volume', 'fullscreen'],
-                });
-                
-                video.addEventListener('canplay', () => { this.isLoading = false; });
-                window.player.play().catch(() => { this.isLoading = false; });
-            }, 500);
-        },
-
-        nextEp() {
-            const next = this.epList.find(e => e.number > this.currentNumber);
-            if(next) this.playEp(next);
-        },
-
-        prevEp() {
-            const prev = [...this.epList].reverse().find(e => e.number < this.currentNumber);
-            if(prev) this.playEp(prev);
-        },
-        
-        showLimitModal: false
-     }"
+     x-data="animePlayer(@js([
+        'epList' => $episodesList,
+        'animeTitle' => $anime->title,
+        'animeSlug' => $anime->slug,
+        'animePoster' => $anime->poster_image,
+        'initialEpId' => $initialEpisodeId,
+     ]))"
      @limit-reached.window="showLimitModal = true">
     
     <div x-cloak x-show="showLimitModal" class="fixed inset-0 z-[1000] flex items-center justify-center p-6 transition-all duration-500">
@@ -203,7 +129,7 @@
                     <div class="w-1.5 h-6 bg-red-600 rounded-full shadow-[0_0_15px_rgba(220,38,38,0.6)]"></div>
                     <div>
                         <h2 class="text-base md:text-lg font-black uppercase text-white tracking-tight leading-none" x-text="currentEpisodeTitle"></h2>
-                        <p class="text-[7px] font-black text-red-500 uppercase tracking-[0.4em] mt-1.5">ZESEKAI PREMIUM PLAYER</p>
+                        <p class="text-[7px] font-black text-red-500 uppercase tracking-[0.4em] mt-1.5">ZESEKAI PLAYER</p>
                     </div>
                 </div>
                 
@@ -337,3 +263,117 @@
         </div>
     </div>
 </div>
+
+<script>
+document.addEventListener('alpine:init', () => {
+    Alpine.data('animePlayer', (config) => ({
+        isLoading: false,
+        currentUrl: '',
+        currentEpisodeTitle: '',
+        currentNumber: 1,
+        currentEpisodeId: null,
+        isEmbed: true,
+        epList: config.epList,
+        showLimitModal: false,
+
+        init() {
+            if(config.initialEpId) {
+                const ep = this.epList.find(e => e.id == config.initialEpId);
+                if(ep) this.playEp(ep);
+            } else {
+                const localHist = JSON.parse(localStorage.getItem('zesekai_history') || '[]');
+                const found = localHist.find(h => h.anime_slug == config.animeSlug);
+                if(found) {
+                    const ep = this.epList.find(e => e.id == found.ep_id);
+                    if(ep) this.playEp(ep);
+                }
+            }
+        },
+
+        async playEp(ep) {
+            this.isLoading = true;
+            try {
+                const result = await this.$wire.playEpisode(ep.id);
+                if (!result) { this.isLoading = false; return; }
+                
+                this.currentEpisodeId = result.id;
+                let url = result.url;
+                this.currentEpisodeTitle = result.title;
+                this.currentNumber = result.number;
+                
+                this.isEmbed = true;
+                if (url.includes('pixeldrain.com')) {
+                    const id = url.split('/').pop().split('?')[0];
+                    url = 'https://pixeldrain.com/api/file/' + id;
+                    this.isEmbed = false;
+                } else if (url.includes('krakenfiles.com/view/')) {
+                    url = url.replace('/view/', '/embed/');
+                    this.isEmbed = true;
+                } else {
+                    const directExts = ['.mp4', '.m3u8', '.webm'];
+                    const isDirect = directExts.some(ext => url.toLowerCase().split('?')[0].endsWith(ext));
+                    if (isDirect) this.isEmbed = false;
+                }
+
+                this.currentUrl = url;
+                if(!this.isEmbed) this.initPlyr(url);
+                
+                this.saveHistory(result, config.animeTitle, config.animeSlug, config.animePoster);
+
+                window.scrollTo({top: 0, behavior: 'smooth'});
+            } catch (e) {
+                console.error('PlayEp Error:', e);
+            } finally {
+                this.isLoading = false;
+            }
+        },
+
+        saveHistory(ep, animeTitle, animeSlug, animePoster) {
+            let history = JSON.parse(localStorage.getItem('zesekai_history') || '[]');
+            const item = {
+                ep_id: ep.id, ep_number: ep.number, ep_title: ep.title,
+                anime_title: animeTitle, anime_slug: animeSlug, anime_poster: animePoster,
+                watched_at: new Date().toISOString()
+            };
+            const existingIndex = history.findIndex(h => h.anime_slug === animeSlug);
+            if(existingIndex !== -1) {
+                history.splice(existingIndex, 1);
+            }
+            history.unshift(item);
+            history = history.slice(0, 10);
+            localStorage.setItem('zesekai_history', JSON.stringify(history));
+        },
+
+        initPlyr(url) {
+            if (window.player) { window.player.destroy(); window.player = null; }
+            this.$nextTick(() => {
+                const video = document.getElementById('player');
+                if(!video) return;
+
+                if (url.includes('.m3u8')) {
+                    if (typeof Hls !== 'undefined' && Hls.isSupported()) {
+                        const hls = new Hls(); hls.loadSource(url); hls.attachMedia(video);
+                    }
+                } else { video.src = url; }
+
+                window.player = new Plyr(video, {
+                    controls: ['play-large', 'play', 'progress', 'current-time', 'duration', 'mute', 'volume', 'settings', 'fullscreen'],
+                    autoplay: true,
+                });
+                
+                video.addEventListener('canplay', () => { this.isLoading = false; });
+            });
+        },
+
+        nextEp() {
+            const next = this.epList.find(e => e.number > this.currentNumber);
+            if(next) this.playEp(next);
+        },
+
+        prevEp() {
+            const prev = [...this.epList].reverse().find(e => e.number < this.currentNumber);
+            if(prev) this.playEp(prev);
+        }
+    }));
+});
+</script>

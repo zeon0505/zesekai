@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class WatchLog extends Model
 {
-    protected $fillable = ['user_id', 'ip_address', 'episode_id'];
+    protected $fillable = ['user_id', 'ip_address', 'episode_id', 'last_time'];
     
     public function user()
     {
