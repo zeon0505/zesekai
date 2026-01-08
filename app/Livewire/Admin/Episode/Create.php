@@ -75,10 +75,14 @@ class Create extends Component
 
     public function searchOnApiServer($query, $source = 'sansekai')
     {
+        \Log::info("SearchOnApiServer called: query={$query}, source={$source}");
+        
         $cacheKey = "api_search_{$source}_" . md5($query);
         
         return \Cache::remember($cacheKey, 3600, function() use ($query, $source) {
             try {
+                \Log::info("Cache MISS - executing API call for: {$source} / {$query}");
+                
                 switch ($source) {
                     case 'sansekai':
                         $response = $this->apiRequest("https://api.sansekai.my.id/api/anime/search", ['query' => $query]);
@@ -87,16 +91,35 @@ class Create extends Component
                         return $data['data'][0]['result'] ?? [];
 
                     case 'otakudesu':
-                        $response = $this->apiRequest("https://www.sankavollerei.com/anime/search/" . urlencode($query));
+                        $url = "https://www.sankavollerei.com/anime/search/" . urlencode($query);
+                        \Log::info("Otakudesu Search URL: {$url}");
+                        $response = $this->apiRequest($url);
+                        
                         if ($response && $response->successful()) {
-                            $results = $response->json()['data']['animeList'] ?? [];
-                            return array_map(fn($item) => [
+                            $fullData = $response->json();
+                            \Log::info("Otakudesu API Response Status: SUCCESS");
+                            \Log::info("Otakudesu Response Keys: " . json_encode(array_keys($fullData)));
+                            
+                            $results = $fullData['data']['animeList'] ?? [];
+                            \Log::info("Otakudesu Results Count: " . count($results));
+                            
+                            if (!empty($results)) {
+                                \Log::info("First Result Sample: " . json_encode($results[0]));
+                            }
+                            
+                            $mapped = array_map(fn($item) => [
                                 'judul' => $item['title'] ?? '',
                                 'url' => $item['animeId'] ?? '',
                                 'cover' => $item['poster'] ?? '',
                                 'type' => 'Anime',
                                 'status' => $item['status'] ?? 'Unknown'
                             ], $results);
+                            
+                            \Log::info("Mapped Results Count: " . count($mapped));
+                            return $mapped;
+                        } else {
+                            $status = $response ? $response->status() : 'NO_RESPONSE';
+                            \Log::error("Otakudesu API Failed: HTTP {$status}");
                         }
                         break;
 
@@ -130,7 +153,10 @@ class Create extends Component
                 }
             } catch (\Exception $e) {
                 \Log::error("Search Cache Error: " . $e->getMessage());
+                \Log::error("Stack trace: " . $e->getTraceAsString());
             }
+            
+            \Log::warning("Returning empty array for search: {$source} / {$query}");
             return [];
         });
     }

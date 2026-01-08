@@ -1,0 +1,37 @@
+﻿--- SEARCHING 'naruto' ---
+SEARCH RESULT COUNT: 1
+FIRST RESULT KEYS: ["title","poster","status","score","animeId","href","otakudesuUrl","genreList"]
+FIRST RESULT DATA: {"title":"Boruto: Naruto Next Generations Subtitle Indonesia","poster":"https:\/\/otakudesu.best\/wp-content\/uploads\/2020\/05\/Boruto-Sub-Indo.jpg","status":"Ongoing","score":"6.15","animeId":"borot-sub-indo","href":"\/anime\/anime\/borot-sub-indo","otakudesuUrl":"https:\/\/otakudesu.best\/anime\/borot-sub-indo\/","genreList":[{"title":"Action","genreId":"action","href":"\/anime\/genre\/action","otakudesuUrl":"https:\/\/otakudesu.best\/genres\/action\/"},{"title":"Adventure","genreId":"adventure","href":"\/anime\/genre\/adventure","otakudesuUrl":"https:\/\/otakudesu.best\/genres\/adventure\/"},{"title":"Martial Arts","genreId":"martial-arts","href":"\/anime\/genre\/martial-arts","otakudesuUrl":"https:\/\/otakudesu.best\/genres\/martial-arts\/"},{"title":"Shounen","genreId":"shounen","href":"\/anime\/genre\/shounen","otakudesuUrl":"https:\/\/otakudesu.best\/genres\/shounen\/"},{"title":"Super Power","genreId":"super-power","href":"\/anime\/genre\/super-power","otakudesuUrl":"https:\/\/otakudesu.best\/genres\/super-power\/"}]}
+
+--- FETCHING DETAIL FOR 'borot-sub-indo' ---
+DETAIL RESULT:
+Array
+(
+    [0] => title
+    [1] => poster
+    [2] => japanese
+    [3] => score
+    [4] => producers
+    [5] => type
+    [6] => status
+    [7] => episodes
+    [8] => duration
+    [9] => aired
+    [10] => studios
+    [11] => batch
+    [12] => synopsis
+    [13] => genreList
+    [14] => episodeList
+    [15] => recommendedAnimeList
+)
+EPISODE COUNT: 293
+FIRST EPISODE:
+Array
+(
+    [title] => Boruto: Naruto Next Generations Episode 293 Subtitle Indonesia
+    [eps] => 293
+    [date] => 26 Maret,2023
+    [episodeId] => btr-nng-episode-293-sub-indo
+    [href] => /anime/episode/btr-nng-episode-293-sub-indo
+    [otakudesuUrl] => https://otakudesu.best/episode/btr-nng-episode-293-sub-indo/
+)
