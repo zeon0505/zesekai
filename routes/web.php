@@ -34,14 +34,14 @@ Route::post('/logout', function () {
 })->name('logout');
 
 // USER ROUTES
-Route::middleware(['auth', 'verified'])->group(function () {
+Route::middleware(['auth'])->group(function () {
     Route::get('/dashboard', UserDashboard::class)->name('dashboard');
     Route::get('/profile', UserProfile::class)->name('profile');
     Route::get('/watchlist', \App\Livewire\User\Watchlist::class)->name('watchlist');
 });
 
 // ADMIN ROUTES
-Route::middleware(['auth', 'verified'])->prefix('admin')->name('admin.')->group(function () {
+Route::middleware(['auth'])->prefix('admin')->name('admin.')->group(function () {
     Route::get('/dashboard', AdminDashboard::class)->name('dashboard');
 
     // Anime CRUD
