@@ -21,6 +21,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'is_admin',
         'is_premium',
         'subscription_ends_at',
     ];
@@ -46,6 +47,7 @@ class User extends Authenticatable
             'email_verified_at' => 'datetime',
             'subscription_ends_at' => 'datetime',
             'password' => 'hashed',
+            'is_admin' => 'boolean',
             'is_premium' => 'boolean',
         ];
     }
