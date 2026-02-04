@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zesekai Admin Panel</title>
+    <title>{{ $title ?? config('app.name', 'Zesekai') }} - Admin</title>
+    <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}?v=1">
     
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">

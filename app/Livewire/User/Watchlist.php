@@ -4,9 +4,10 @@ namespace App\Livewire\User;
 
 use Livewire\Component;
 use Livewire\Attributes\Layout;
-use Illuminate\Support\Facades\Auth;
+use Livewire\Attributes\Title;
 
 #[Layout('layouts.user')]
+#[Title('Watchlist')]
 class Watchlist extends Component
 {
     public function render()

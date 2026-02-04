@@ -89,6 +89,7 @@ class AnimeDetail extends Component
 
     public function render()
     {
-        return view('livewire.anime-detail')->layout('layouts.app');
+        return view('livewire.anime-detail')
+            ->layout('layouts.app', ['title' => $this->anime->title]);
     }
 }
