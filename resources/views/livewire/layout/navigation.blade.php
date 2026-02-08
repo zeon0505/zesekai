@@ -12,15 +12,15 @@
 
         <!-- Navigation Links -->
         <div class="hidden md:flex gap-10 font-bold text-gray-400 text-[10px] uppercase tracking-[0.2em]">
-            <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'text-white' : '' }} hover:text-white transition-colors">Home</a>
+            <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'text-red-600' : '' }} hover:text-white transition-colors">Home</a>
             @auth
-                <a href="{{ route('dashboard') }}" class="{{ request()->routeIs('dashboard') ? 'text-white' : '' }} hover:text-white transition-colors text-red-500">Dashboard</a>
+                <a href="{{ route('dashboard') }}" class="{{ request()->routeIs('dashboard') ? 'text-red-600' : '' }} hover:text-white transition-colors">Dashboard</a>
                 @if(!auth()->user()->is_premium)
-                    <a href="{{ route('subscription') }}" class="{{ request()->routeIs('subscription') ? 'text-white' : '' }} hover:text-white transition-colors">Premium</a>
+                    <a href="{{ route('subscription') }}" class="{{ request()->routeIs('subscription') ? 'text-red-600' : '' }} hover:text-white transition-colors">Premium</a>
                 @endif
             @endauth
-            <a href="{{ route('trending') }}" class="{{ request()->routeIs('trending') ? 'text-white' : '' }} hover:text-white transition-colors">Trending</a>
-            <a href="{{ route('catalog') }}" class="{{ request()->routeIs('catalog') ? 'text-white' : '' }} hover:text-white transition-colors">Catalog</a>
+            <a href="{{ route('trending') }}" class="{{ request()->routeIs('trending') ? 'text-red-600' : '' }} hover:text-white transition-colors">Trending</a>
+            <a href="{{ route('catalog') }}" class="{{ request()->routeIs('catalog') ? 'text-red-600' : '' }} hover:text-white transition-colors">Catalog</a>
         </div>
 
         <!-- User Settings -->
@@ -73,19 +73,19 @@
 
     <!-- Responsive Menu -->
     <div :class="{'block': open, 'hidden': ! open}" class="hidden md:hidden mt-2 bg-black/80 backdrop-blur-xl border border-white/5 rounded-2xl p-4 space-y-4">
-        <a href="{{ route('home') }}" class="block text-[10px] font-black text-gray-400 uppercase tracking-widest">Home</a>
-        <a href="{{ route('trending') }}" class="block text-[10px] font-black text-gray-400 uppercase tracking-widest">Trending</a>
-        <a href="{{ route('catalog') }}" class="block text-[10px] font-black text-gray-400 uppercase tracking-widest">Catalog</a>
+        <a href="{{ route('home') }}" class="block text-[10px] font-black {{ request()->routeIs('home') ? 'text-red-600' : 'text-gray-400' }} uppercase tracking-widest">Home</a>
+        <a href="{{ route('trending') }}" class="block text-[10px] font-black {{ request()->routeIs('trending') ? 'text-red-600' : 'text-gray-400' }} uppercase tracking-widest">Trending</a>
+        <a href="{{ route('catalog') }}" class="block text-[10px] font-black {{ request()->routeIs('catalog') ? 'text-red-600' : 'text-gray-400' }} uppercase tracking-widest">Catalog</a>
         
         @auth
-            <a href="{{ route('dashboard') }}" class="block text-[10px] font-black text-red-600 uppercase tracking-widest">Dashboard</a>
+            <a href="{{ route('dashboard') }}" class="block text-[10px] font-black {{ request()->routeIs('dashboard') ? 'text-red-600' : 'text-gray-400' }} uppercase tracking-widest">Dashboard</a>
             @if(!auth()->user()->is_premium)
-                <a href="{{ route('subscription') }}" class="block text-[10px] font-black text-gray-400 uppercase tracking-widest">Premium</a>
+                <a href="{{ route('subscription') }}" class="block text-[10px] font-black {{ request()->routeIs('subscription') ? 'text-red-600' : 'text-gray-400' }} uppercase tracking-widest">Premium</a>
             @endif
-            <a href="{{ route('profile') }}" class="block text-[10px] font-black text-gray-400 uppercase tracking-widest">Profile</a>
+            <a href="{{ route('profile') }}" class="block text-[10px] font-black {{ request()->routeIs('profile') ? 'text-red-600' : 'text-gray-400' }} uppercase tracking-widest">Profile</a>
             <button x-on:click.prevent="$dispatch('open-modal', 'confirm-logout')" class="block w-full text-left text-[10px] font-black text-red-600 uppercase tracking-widest">Logout</button>
         @else
-            <a href="{{ route('login') }}" class="block text-[10px] font-black text-gray-400 uppercase tracking-widest">Login</a>
+            <a href="{{ route('login') }}" class="block text-[10px] font-black {{ request()->routeIs('login') ? 'text-red-600' : 'text-gray-400' }} uppercase tracking-widest">Login</a>
             <a href="{{ route('register') }}" class="block text-[10px] font-black text-red-600 uppercase tracking-widest">Sign Up</a>
         @endauth
     </div>

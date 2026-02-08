@@ -251,7 +251,12 @@
 
             {{ $slot }}
 
-            <footer class="mt-20 border-t border-white/5 pt-8 text-center">
+            <footer class="mt-20 border-t border-white/5 pt-8 text-center pb-10">
+                <div class="flex justify-center gap-5 mb-6">
+                    <a href="#" class="text-gray-500 hover:text-red-500 transition"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-gray-500 hover:text-red-500 transition"><i class="bi bi-tiktok"></i></a>
+                    <a href="#" class="text-gray-500 hover:text-red-500 transition"><i class="bi bi-youtube"></i></a>
+                </div>
                 <p class="text-[10px] text-gray-600 uppercase tracking-[0.3em] font-bold">&copy; 2026 ZESEKAI PROJECT</p>
             </footer>
         </div>

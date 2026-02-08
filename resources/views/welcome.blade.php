@@ -6,6 +6,7 @@
     <title>Zesekai - Streaming Anime Terbaik</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     @livewireStyles
 
     @php 
@@ -361,10 +362,21 @@
                 <span class="text-xl font-black tracking-tighter uppercase text-white">ZESE<span class="text-red-600">KAI</span></span>
             </div>
             <p class="text-gray-600 max-w-sm mx-auto mb-10 text-[11px] leading-relaxed font-medium">Platfom streaming anime premium. Dibuat dengan cinta untuk para penggemar setia di seluruh dunia.</p>
-            <div class="flex justify-center gap-10 text-gray-600 text-[9px] mb-16 uppercase tracking-[0.4em] font-black">
+            <div class="flex justify-center gap-10 text-gray-600 text-[9px] mb-8 uppercase tracking-[0.4em] font-black">
                 <a href="#" class="hover:text-red-500 transition-colors">Terms</a>
                 <a href="#" class="hover:text-red-500 transition-colors">Privacy</a>
                 <a href="#" class="hover:text-red-500 transition-colors">DMCA</a>
+            </div>
+            <div class="flex justify-center gap-6 mb-12">
+                <a href="#" class="w-10 h-10 glass flex items-center justify-center text-gray-400 hover:text-red-500 hover:border-red-600/30 transition-all rounded-xl">
+                    <i class="bi bi-instagram text-lg"></i>
+                </a>
+                <a href="#" class="w-10 h-10 glass flex items-center justify-center text-gray-400 hover:text-red-500 hover:border-red-600/30 transition-all rounded-xl">
+                    <i class="bi bi-tiktok text-lg"></i>
+                </a>
+                <a href="#" class="w-10 h-10 glass flex items-center justify-center text-gray-400 hover:text-red-500 hover:border-red-600/30 transition-all rounded-xl">
+                    <i class="bi bi-youtube text-lg"></i>
+                </a>
             </div>
             <p class="text-[8px] text-gray-800 uppercase tracking-[0.5em] font-black">&copy; 2026 ZESEKAI PROJECT. ALL RIGHTS RESERVED.</p>
         </div>

@@ -5,6 +5,7 @@ namespace App\Livewire\User;
 use Livewire\Component;
 use Livewire\Attributes\Layout;
 use Livewire\Attributes\Title;
+use Illuminate\Support\Facades\Auth;
 
 #[Layout('layouts.user')]
 #[Title('Watchlist')]
