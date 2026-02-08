@@ -368,13 +368,13 @@
                 <a href="#" class="hover:text-red-500 transition-colors">DMCA</a>
             </div>
             <div class="flex justify-center gap-6 mb-12">
-                <a href="#" class="w-10 h-10 glass flex items-center justify-center text-gray-400 hover:text-red-500 hover:border-red-600/30 transition-all rounded-xl">
+                <a href="https://www.instagram.com/zeshinn_" class="w-10 h-10 glass flex items-center justify-center text-gray-400 hover:text-red-500 hover:border-red-600/30 transition-all rounded-xl">
                     <i class="bi bi-instagram text-lg"></i>
                 </a>
-                <a href="#" class="w-10 h-10 glass flex items-center justify-center text-gray-400 hover:text-red-500 hover:border-red-600/30 transition-all rounded-xl">
+                <a href="https://www.tiktok.com/@lost.shin1" class="w-10 h-10 glass flex items-center justify-center text-gray-400 hover:text-red-500 hover:border-red-600/30 transition-all rounded-xl">
                     <i class="bi bi-tiktok text-lg"></i>
                 </a>
-                <a href="#" class="w-10 h-10 glass flex items-center justify-center text-gray-400 hover:text-red-500 hover:border-red-600/30 transition-all rounded-xl">
+                <a href="https://www.youtube.com/channel/UCdIrMjvqmpu9NF86xRhxBXw" class="w-10 h-10 glass flex items-center justify-center text-gray-400 hover:text-red-500 hover:border-red-600/30 transition-all rounded-xl">
                     <i class="bi bi-youtube text-lg"></i>
                 </a>
             </div>
