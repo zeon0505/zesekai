@@ -26,6 +26,7 @@ Route::view('/', 'welcome')->name('home'); // KEMBALI KE WELCOME.BLADE.PHP
 Route::get('/trending', Trending::class)->name('trending');
 Route::get('/catalog', Catalog::class)->name('catalog');
 Route::get('/anime/{slug}', AnimeDetail::class)->name('anime.detail');
+Route::get('/sitemap.xml', [App\Http\Controllers\SitemapController::class, 'index'])->name('sitemap');
 Route::post('/payment/notification', [App\Http\Controllers\PaymentController::class, 'notification'])->name('payment.notification');
 Route::post('/logout', function () {
     Illuminate\Support\Facades\Auth::logout();

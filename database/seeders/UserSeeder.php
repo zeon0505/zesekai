@@ -13,18 +13,6 @@ class UserSeeder extends Seeder
      */
     public function run(): void
     {
-        // Admin account
-        User::updateOrCreate(
-            ['email' => 'admin@zesekai.com'],
-            [
-                'name' => 'Admin Zesekai',
-                'password' => Hash::make('password'),
-                'is_admin' => true,
-                'is_premium' => true,
-                'email_verified_at' => now(),
-            ]
-        );
-
         // Regular user account
         User::updateOrCreate(
             ['email' => 'user@zesekai.com'],
