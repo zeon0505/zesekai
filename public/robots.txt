@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: http://localhost/sitemap.xml
+Sitemap: https://zesekai.fpyoga.my.id/sitemap.xml
